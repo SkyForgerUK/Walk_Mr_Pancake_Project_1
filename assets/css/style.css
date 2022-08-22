@@ -10,6 +10,7 @@ body {
     font-family: Merriweather, sans-serif;
     font-weight: 300;
     color: #44434A;
+    margin: auto;
 }
 
 /* Navigation and logo */
@@ -52,10 +53,6 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* #top-cover {
-    width: 100%;
-    height: 600px;
-} */
 
 /*Top backgroud image and overly text*/
 
@@ -110,6 +107,7 @@ body {
     animation-name: pancake-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    
      
 } 
 
@@ -132,10 +130,10 @@ body {
 
 #question {
     text-align: center;
-    margin: 2px;
+    margin: 20px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
-    padding: 0 30px 30px 30px;
+    padding: 30px;
     
 
 }
@@ -171,21 +169,43 @@ body {
    
 }
 
-.midleft {
+/*text for reasons*/
+
+
+#top-center {
+    padding-top: 10px;
     width: 33%;
     float: right;
-    /* line-height: 20px; */
+}
+
+
+#top-right {
+    padding-top: 10px;
+    width: 33%;
+    float: right;
+
+}
+
+.reasons {
+    
+    width: 80%;
+    height: 225px;
+    display: block;
+    margin: 80px 20px 0;
+    padding: 30px 15px;
+    /* border: 1px solid black; */
     clear: both;
-    /* margin-bottom: 50px; */
-}
-
-
-
-
-#top-left {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
 
 }
+
+.reasons > h2 {
+    text-transform: uppercase;
+}
+
+.bottom-reasons {
+    margin-top: 0;
+    padding-top: 0;
+
+}
+
 
