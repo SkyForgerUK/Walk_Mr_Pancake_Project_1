@@ -95,7 +95,7 @@ body {
     width: 100%;
     overflow: hidden;
     position: relative;
-    background-color: #6D6D73;
+    background-color: #44434A;
 }
 
 
@@ -213,6 +213,30 @@ hr {
     width: 100%;
     margin: 5px 0;
 
+}
+
+/* meet up times & locations*/
+
+#times {
+    background-image: url('../images/Cotswolds_Panorama_Fields.jpg');
+    background-color: #44434A;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;   
+}
+
+#times div {
+    color: #e5e8d8;
+    background-color: rgba(0, 0, 0, .6);
+    width: 25%;
+    height: 225px;
+    float: left;
+    padding: 10px 0 0 10px;
+    text-align: center;
+    border: 2px solid #e5e8d8;
+    box-sizing: border-box;
 }
 
 
