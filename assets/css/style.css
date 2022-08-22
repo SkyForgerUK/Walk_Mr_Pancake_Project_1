@@ -124,7 +124,7 @@ body {
 /* mid part Why to join us*/
 
 #mid-section {
-    height: 600px;
+    height: 675px;
 }
 
 
@@ -212,6 +212,33 @@ hr {
     border-top: 1px solid #44434A;
     width: 100%;
     margin: 5px 0;
+
+}
+
+
+/* footer */
+
+.socials {
+    text-align: center;
+    background-color: #44434A;
+    margin-bottom: 0;
+    padding: 0.5% 0;
+}
+
+.socials li {
+
+    display: inline-block;
+    list-style: none;
+    margin: 10px 5%; 
+
+    
+}
+
+.socials i {
+    font-size: 200%;
+    margin-top: 1%;
+    padding: 5%;
+    color: #e5e8d8;
 
 }
 
