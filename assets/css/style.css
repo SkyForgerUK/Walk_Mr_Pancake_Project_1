@@ -129,22 +129,13 @@ body {
     height: 600px;
 }
 
-#question-box {
-    width: 33%;
-    margin: 0 auto;
-    float: left;
-    /* position: absolute; */
-    padding-top: 30px;
-   
-}
-
-
 
 #question {
     text-align: center;
     margin: 2px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
+    padding: 0 30px 30px 30px;
     
 
 }
