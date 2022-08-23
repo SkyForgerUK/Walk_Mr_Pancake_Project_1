@@ -93,6 +93,7 @@ body {
 #who-cover-text {
     text-align: center;
     font-size: 2.5em;
+    line-height: 75px
 }
 /* Who is Pancake cover text special styling end*/
 
@@ -100,10 +101,27 @@ body {
 /* Gallery cover text special styling start*/
 #galery-cover-text {
     text-align: center;
-    font-size: 3em;
-    padding-top: 20px;
+    font-size: 2.5em;
+    line-height: 150px
 }
 /* Gallery cover text special styling end*/
+
+
+/* Locations cover text special styling start*/
+#locations-cover-text {
+    text-align: center center;
+    font-size: 2.5em;
+    line-height: 150px
+}
+/* Locations cover text special styling end*/
+
+/* Contact Us cover text special styling start*/
+#contact-cover-text {
+    text-align: center center;
+    font-size: 2.5em;
+    line-height: 150px
+}
+/* Contact Us cover text special styling end*/
 
 
 #top-outer {
