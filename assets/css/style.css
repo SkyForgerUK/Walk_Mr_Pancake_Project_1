@@ -5,6 +5,16 @@ font-family: 'Lato', sans-serif;
 font-family: 'Merriweather', serif;
 font-family: 'Oswald', sans-serif; */
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
 body {
     background-color: #e5e8d8;
     font-family: Merriweather, sans-serif;
@@ -15,10 +25,20 @@ body {
 
 /* Navigation and logo */
 
+/* .logo-div {
+
+} */
+
 .toplogo {
     float: left;
     width: 150px;
-    margin-left: 30px;
+    margin-left: auto;
+    /* position: absolute; */
+    
+   
+  
+    
+
 }
 
 
@@ -26,18 +46,29 @@ body {
 .menu {
     font-size: 120%;
     letter-spacing: 4px;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 20px;
+
+    
 }
 
 
 .menu,
 .toplogo {
-    line-height: 75px;
+    line-height: 50px;
 }
 
 .menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
+        list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+   
 }
 
 .menu a {
@@ -62,24 +93,26 @@ body {
 .cover-text,
 .cover-text h2 {
     color: #fff;
+    padding-bottom: 7px;
 }
 
 .cover-text {
-    font-size: 130%;
+    font-size: 100%;
     font-family: Merriweather, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 
-    width: 375px;
-    height: 250px;
+    width: 300px;
+    height: 200px;
 
     padding-top: 20px;
     padding-left: 20px;
 
     background-color: rgba(171, 137, 176, .7);
 
-    bottom: 60px;
-    right: 200px;
+    bottom: 20px;
+    right: 10%;
+    
 
     position: absolute;
 
