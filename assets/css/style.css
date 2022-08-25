@@ -195,19 +195,8 @@ body {
     display: block;
 }
 
-#mid-section2 {
-    height: 100%;
-}
 
-#mid-section3 {
-    height: 100%;
-}
-
-#mid-section4 {
-    height: 100%;
-}
-
-#mid-section5 {
+.mid-section {
     height: 100%;
 }
 
@@ -394,3 +383,57 @@ hr {
 
 
 }
+
+
+/* Locations page*/
+
+.locations-outer-nav {
+    
+    height: 175px;
+    margin: 40px auto 0;
+
+    background-image: url('../images/Cotswolds_Panorama_Fields.jpg');
+    background-color: #44434A;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden; 
+    display: flex;
+}
+
+
+
+.location-text {
+    color: #e5e8d8;
+    background-color: rgba(0, 0, 0, .6);       
+    width: 80%; 
+    clear: both;  
+    height: 175px; 
+    padding: 0; 
+    padding: 10px 0 0 10px;
+    text-align: left;
+    border: 2px solid #e5e8d8;
+    box-sizing: border-box;
+    font-size: 90%;
+    
+}
+
+.location-text > h4 {
+    margin-top: 5px;
+}
+
+/*map*/
+
+
+
+.map {
+    height: 175;
+    width: 100%;
+    border: none;
+    float: right;
+    align-items: flex-start;
+}
+
+
+
