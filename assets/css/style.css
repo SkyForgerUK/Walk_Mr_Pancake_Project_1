@@ -435,5 +435,124 @@ hr {
     align-items: flex-start;
 }
 
+/*Contact us section*/
+
+.form-section {
+    margin-top: 40px;
+    clear: left;
+    background: url(../images/october-1349737.jpg); /*freeimages.com*/
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 75px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 425px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Delete at the end
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif; */
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+    font-size: 200%;
+}
+
+.signup-form > fieldset > div > label {
+    font-family: 'Merriweather', serif;
+    margin-left: 7px;
+}
+
+.signup-form > fieldset > div > h3 {
+    margin: 15px 0 10px;
+}
+
+.text-input {
+    background: transparent;
+    color: #e5e8d8;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #e5e8d8;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #a1cc29;
+}
+
+#freetext {
+    background-color: #e5e8d8;
+    margin: 20px 0 15px;
+
+}
+
+#plato {
+    padding: 20px 0 10px;
+}
+
+#plato > label {
+    font-family: 'Lato', sans-serif;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #687232;
+    color: #e5e8d8;
+    display: block;
+    
+}
+
+.join-button:hover {
+    background-color: #e5e8d8;
+    color: #687232;
+}
+
+.reset-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #e5e8d8;
+    color: #687232;
+    display: block;
+    
+}
+
+.reset-button:hover {
+    background-color: #687232;
+    color: #e5e8d8;
+    
+}
+
+
+#button-in {
+    display: flex;
+    margin: 0 -5px;
+    
+}
+
+.butdiv {
+    margin: 0 5px;
+}
+
 
 
