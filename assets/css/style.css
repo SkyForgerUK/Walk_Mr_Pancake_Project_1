@@ -377,3 +377,20 @@ hr {
 }
 
 
+/* gallery */
+
+#photos {
+    clear: both; /* to make photos to display below the header */
+    line-height: 0; /* remove any horizontal gaps between the images */
+    column-count: 2; /* specifies how many columns max in 1 row displayed*/
+    column-gap: 0px; /* removes the gaps between images (personal preference- can be what I like)*/
+    margin-top: 40px;
+}
+
+#photos > img {
+    width: 100%; /* use to make all images the same size - as the above makes  pics per line it will resize the images to fit nicely*/
+   
+    border: 3px solid #44434A;
+
+
+}
