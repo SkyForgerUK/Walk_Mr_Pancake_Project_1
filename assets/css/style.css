@@ -554,5 +554,47 @@ font-family: 'Oswald', sans-serif; */
     margin: 0 5px;
 }
 
+#thank-you {
+    width: 100%;
+    height: 900px;
+    background: url(../images/top-cover.jpg) center center no-repeat;
+    background-size: cover;
+    
+    
+}
 
 
+
+
+
+#thank-you-nav1 {
+    color: #e5e8d8;
+    font-family: Merriweather, sans-serif;
+    letter-spacing: 2px;
+    font-size: 80%;
+    text-decoration: none;
+    width: 80%;
+    height:  175px;
+
+    padding: 20px;
+    
+
+    background-color: rgba(68, 67, 74, .8);
+    position: relative;
+    bottom: -80px;
+    right: -10%;
+    text-align: center;
+}
+
+#thank-you-nav1 > h1 {
+    font-size: 200%;
+}
+
+#thank-you-nav1 > hr {
+    border: 0;
+}
+
+#thank-you-nav1 > h2 > a {
+    color: inherit;
+    
+}
