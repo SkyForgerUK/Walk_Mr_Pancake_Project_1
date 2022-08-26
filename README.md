@@ -50,7 +50,6 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
     - The colapsing bar is styled using the hamburger icon when collapsed and an 'x' icon when open.
     - Nav bar holds a Dachshund logo on the left side witch us kept unison trough all the site pages.
 
-
 - __Footer:__
 
     - Fotter contains soicilal link ions which when clicked will open the destination in a new tab for the user.
@@ -97,7 +96,27 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 - __Gallery:__
 
-    - Contains various pictures with dogs and their owners 
+    - Contains various pictures with dogs and their owners pre, post and during walks.
+    
+
+## Locations Page
+
+- __Locations:__
+
+    - Contains four panels with informtion about the meet up locations
+    - Each panel has:
+        - A joint background
+        - Full information of meet up locations on the left
+        - Interactive, embedded google mps for start point of each walk
+
+## Contact Page
+
+- __Contact Us:__
+
+    - Mandatory fields 
+        - First name, Last Name and Email 
+        
+    - Optional Fields        
 
 
 <!-- fill in as going along-->
