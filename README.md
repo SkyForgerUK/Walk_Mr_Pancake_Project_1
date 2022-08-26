@@ -16,13 +16,89 @@ Join Mr. Pancake For A Walk site will be useful for dog lovers to:
 
 ### 2.  <!--Remove line-->
 
-User stories <!--To fill in-->
+## User stories <!--To fill in-->
+
+- As the site owner I want:
+    - To introduce my idea to my neighbours and residents of Nuneaton.
+    - That the site feels warm and positive.
+    - A dedicated page with images from previous walks available to see to anyone visiting the site.
+    - A section on the front page showing the meetup times and a dedicated page with this information including google maps links.
+    - That participants will be easely able to contact me and suggest new routes.
+- As a user I want:
+    - To easily understand the purpose of the website.
+    - To clearly see what sections I can explore in the website.
+    - To easily reach each section.
+    - To understand who Mr. Pancake is.
+    - To easely get to meet up times and locations information.
+    - To be able to contact organizers in case of questions.
 
 
 
 ### 3.  <!--Remove line-->
 
 ## Exiting Features
+
+There are five pages: Home page, Who is Mr.Pancake page, Gallery, Locations, and Contact page
+
+### Navigation bar and Footer
+
+Both Nav bar and footer are responsive to the size of the screen being used to read the website.
+
+- __Navigation Bar:__
+
+    - On a small screen the Nav items are contained in a collapsing Nav bar while on bigger screens they are all visible at the same time.
+    - The colapsing bar is styled using the hamburger icon when collapsed and an 'x' icon when open.
+    - Nav bar holds a Dachshund logo on the left side witch us kept unison trough all the site pages.
+
+
+- __Footer:__
+
+    - Fotter contains soicilal link ions which when clicked will open the destination in a new tab for the user.
+    - Social media icons contain links to:
+        - Facebook
+        - Twitter
+        - Youtube
+        - Instagram
+
+
+## Home Page
+
+- __Hero image:__
+
+    - Site visitors are greeted with a heartwarmig look from a small Dachshund evoking good feelings and sense of security
+    - The Hero image is kept troughout all pages, with only the cover image background changig for each page.
+    - After submitting a contact form the users are exposed to full size image of the hero image, further strenghtening the warm and positive message.
+
+- __Mid/ethos section:__
+
+    - Contains a header with question "Why join Mr. Pancake for a walk?"
+    - Below the question are the four main reasons why people should consider joinung the walk group.
+    - This section is completed with a slideshow area, where user is shown various pictures in 4 second intervals.
+
+  - __Meet up locations:__  
+
+    - Contained in four seperate parts , one for each of the 4 days a wek the walks take place.
+    - Minimalistic information about meet up locations is presented on a beautiful background
+    - By clicking on any of the panels users are brought directly to the Location page where more info and interactive maps are available.
+
+
+## Mr. Pancake Page
+
+- __Who is Mr. Pancake:__
+
+    - In this page site visitors will discover who the mysterious Mr. Pancake, who they met on the Home page, is.
+    - The four panels contain:
+        - Information about the breed
+        - Where Mr. Pancake lives
+        - What does he like
+        - What he is looking for - new companions to go on walks and have fun with
+
+## Gallery Page
+
+- __Gallery:__
+
+    - Contains various pictures with dogs and their owners 
+
 
 <!-- fill in as going along-->
 
