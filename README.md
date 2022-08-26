@@ -60,7 +60,7 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
         - Instagram
 
 
-## Home Page
+## Landing Page
 
 - __Hero image:__
 
@@ -103,7 +103,7 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 - __Locations:__
 
-    - Contains four panels with informtion about the meet up locations
+    - Contains four panels with informtion about the meet up locations.
     - Each panel has:
         - A joint background
         - Full information of meet up locations on the left
@@ -114,9 +114,23 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 - __Contact Us:__
 
     - Mandatory fields 
-        - First name, Last Name and Email 
+        - First name
+        - Last Name
+        - Email Address
         
-    - Optional Fields        
+    - Optional Fields
+        - Dogs Name
+        - Dogs Breed
+        - Which walk would you like to participate in
+        - Any questions or suggestions
+
+
+## Thank You Page
+
+- __Thank you__
+
+    - Contains a thank you text with  "please click here" to return top home page.
+            
 
 
 <!-- fill in as going along-->
@@ -126,6 +140,8 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 ### 4.  <!--Remove line-->
 
 ## Features left to implement
+
+
 
 <!--ideas that I was not able to implement yet, but want to in future-->
 
