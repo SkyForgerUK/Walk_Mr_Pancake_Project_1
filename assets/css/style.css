@@ -1,40 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:wght@300&family=Oswald:wght@300&display=swap');
+
 /* Delete at the end font-family: 'Lato', sans-serif;
  font-family: 'Merriweather', serif;
  font-family: 'Oswald', sans-serif;
  */
- *, *::before, *::after {
+*,
+*::before,
+*::after {
      box-sizing: border-box;
 }
- * {
+
+* {
      margin: 0px;
      padding: 0px;
      border: none;
 }
- body {
+
+body {
      background-color: #e5e8d8;
      font-family: Merriweather, sans-serif;
      font-weight: 300;
      color: #44434A;
      margin: auto;
 }
+
 /* Navigation and logo */
- .top-logo {
+.top-logo {
      float: left;
      width: 150px;
      margin-left: auto;
 }
- .menu {
+
+.menu {
      font-size: 120%;
      letter-spacing: 4px;
      position: relative;
      padding-top: 70px;
      padding-bottom: 20px;
 }
- .menu, .top-logo {
+
+.menu,
+.top-logo {
      line-height: 45px;
 }
- .menu li {
+
+.menu li {
      list-style-type: none;
      display: flex;
      flex-direction: column;
@@ -44,22 +54,28 @@
      padding: 0;
      height: 100%;
 }
- .menu a {
+
+.menu a {
      text-decoration: none;
      color: inherit;
 }
- .menu a:hover {
+
+.menu a:hover {
      border-bottom: 1px solid #44434A;
 }
- .active {
+
+.active {
      border-bottom: 1px solid #3a3a3a;
 }
+
 /*Hero (top cover) image and overly text*/
- .cover-text, .cover-text h2 {
+.cover-text,
+.cover-text h2 {
      color: #fff;
      padding-bottom: 7px;
 }
- .cover-text {
+
+.cover-text {
      font-size: 100%;
      font-family: Merriweather, sans-serif;
      text-transform: uppercase;
@@ -73,45 +89,52 @@
      right: 10%;
      position: absolute;
 }
- .cover-text h3 {
+
+.cover-text h3 {
      text-transform: none;
 }
+
 /* Who is Pancake cover text special styling start*/
- .who-cover-text {
+.who-cover-text {
      text-align: center;
      font-size: 2.5em;
-     line-height: 75px 
+     line-height: 75px
 }
+
 /* Who is Pancake cover text special styling end*/
 /* Gallery cover text special styling start*/
- .galery-cover-text {
+.galery-cover-text {
      text-align: center;
      font-size: 2.5em;
-     line-height: 150px 
+     line-height: 150px
 }
+
 /* Gallery cover text special styling end*/
 /* Locations cover text special styling start*/
- .locations-cover-text {
+.locations-cover-text {
      text-align: center;
      font-size: 2.5em;
-     line-height: 150px 
+     line-height: 150px
 }
+
 /* Locations cover text special styling end*/
 /* Contact Us cover text special styling start*/
- .contact-cover-text {
+.contact-cover-text {
      text-align: center;
      font-size: 2.5em;
-     line-height: 150px 
+     line-height: 150px
 }
+
 /* Contact Us cover text special styling end*/
- .top-outer {
+.top-outer {
      height: 450px;
      width: 100%;
      overflow: hidden;
      position: relative;
      background-color: #c9c9c9;
 }
- .top-cover2 {
+
+.top-cover2 {
      height: 450px;
      width: 100%;
      display: block;
@@ -120,34 +143,41 @@
      animation-duration: 5s;
      animation-fill-mode: forwards;
 }
- @keyframes pancake-zoom {
+
+@keyframes pancake-zoom {
      from {
-         transform: scale(1.05);
-    }
+          transform: scale(1.05);
+     }
+
      to {
-         transform: scale(1.0);
-    }
+          transform: scale(1.0);
+     }
 }
+
 /* mid part Why to join us*/
- .mid-section0 {
+.mid-section0 {
      height: 100%;
      display: block;
 }
- .mid-section {
+
+.mid-section {
      height: 100%;
 }
- .question {
+
+.question {
      text-align: center;
      font-family: 'Lato', sans-serif;
      font-size: 30px;
      padding: 30px 15% 10px 15%;
 }
+
 /* changing pic mid*/
- .left-image {
+.left-image {
      width: 100%;
      margin: 10px auto 40px;
 }
- .circle-container {
+
+.circle-container {
      width: 300px;
      height: 300px;
      padding: 30px;
@@ -157,12 +187,14 @@
      border-radius: 50%;
      margin: 0 auto;
 }
- .circle-cover-bg {
+
+.circle-cover-bg {
      background: url('../images/love-philly.jpg') no-repeat center;
      background-size: cover;
      height: 100%;
      border-radius: 50%;
 }
+
 /*text for reasons*/
 /* #top-center {
      padding-top: 10px;
@@ -175,10 +207,11 @@
      float: right;
 }
  */
- .mid-h2 {
+.mid-h2 {
      text-align: center;
 }
- .reasons {
+
+.reasons {
      width: 80%;
      height: 100%;
      display: block;
@@ -186,20 +219,24 @@
      padding-bottom: 15px;
      clear: both;
 }
- .reasons>h2 {
+
+.reasons>h2 {
      text-transform: uppercase;
 }
- .bottom-reasons {
+
+.bottom-reasons {
      margin-top: 0;
      padding-top: 0;
 }
- hr {
+
+hr {
      border-top: 1px solid #44434A;
      width: 100%;
      margin: 5px 0;
 }
+
 /* meet up times & locations*/
- .times {
+.times {
      background-image: url('../images/Cotswolds_Panorama_Fields.jpg');
      background-color: #44434A;
      background-repeat: no-repeat;
@@ -208,7 +245,8 @@
      width: 100%;
      overflow: hidden;
 }
- .times>div {
+
+.times>div {
      color: #e5e8d8;
      background-color: rgba(0, 0, 0, .6);
      width: 100%;
@@ -220,56 +258,49 @@
      border: 2px solid #e5e8d8;
      box-sizing: border-box;
 }
-/*Below for bigger sizes*/
-/* #times div {
-     color: #e5e8d8;
-     background-color: rgba(0, 0, 0, .6);
-     width: 25%;
-     height: 225px;
-     float: left;
-     padding: 10px 0 0 10px;
-     text-align: center;
-     border: 2px solid #e5e8d8;
-     box-sizing: border-box;
-}
- */
+
 /* footer */
- .socials {
+.socials {
      text-align: center;
      background-color: #44434A;
      margin: 40px 0 0 0;
      padding: 1% 0;
 }
- .socials li {
+
+.socials li {
      display: inline-block;
      list-style: none;
      margin: 10px 5%;
 }
- .socials i {
+
+.socials i {
      font-size: 200%;
      margin-top: 1%;
      padding: 5%;
      color: #e5e8d8;
 }
+
 /* gallery */
- .photos {
+.photos {
      clear: both;
-    /* to make photos to display below the header */
+     /* to make photos to display below the header */
      line-height: 0;
-    /* remove any horizontal gaps between the images */
+     /* remove any horizontal gaps between the images */
      column-count: 2;
-    /* specifies how many columns max in 1 row displayed*/
+     /* specifies how many columns max in 1 row displayed*/
      column-gap: 0px;
-    /* removes the gaps between images (personal preference- can be what I like)*/
+     /* removes the gaps between images (personal preference- can be what I like)*/
      margin-top: 40px;
 }
- .photos>img {
+
+.photos>img {
      width: 100%;
-    /* use to make all images the same size - as the above makes pics per line it will resize the images to fit nicely*/
+     /* use to make all images the same size - as the above makes pics per line it will resize the images to fit nicely*/
      border: 3px solid #44434A;
 }
+
 /* Locations page*/
- .locations-outer-nav {
+.locations-outer-nav {
      height: 175px;
      margin: 40px auto 0;
      background-image: url('../images/Cotswolds_Panorama_Fields.jpg');
@@ -281,7 +312,8 @@
      overflow: hidden;
      display: flex;
 }
- .location-text {
+
+.location-text {
      color: #e5e8d8;
      background-color: rgba(0, 0, 0, .6);
      width: 60%;
@@ -294,28 +326,32 @@
      box-sizing: border-box;
      font-size: 90%;
 }
- .location-text>h4 {
+
+.location-text>h4 {
      margin-top: 5px;
 }
+
 /*map*/
- .map {
+.map {
      height: 175px;
      width: 40%;
      border: none;
      float: right;
      align-items: flex-start;
 }
+
 /*Contact us section*/
- .form-section {
+.form-section {
      margin-top: 40px;
      clear: left;
      background: url(../images/october-1349737.jpg);
-    /*freeimages.com*/
+     /*freeimages.com*/
      background-size: cover;
      background-position: center;
      height: 910px;
 }
- .signup-form {
+
+.signup-form {
      margin: 75px 10% 0 0;
      color: #fff;
      background-color: rgba(60, 60, 60, 0.8);
@@ -325,19 +361,23 @@
      padding: 20px;
      font-family: 'Lato', sans-serif;
 }
- .signup-form>h2 {
+
+.signup-form>h2 {
      color: #fafafa;
      margin-bottom: 20px;
      font-size: 200%;
 }
- .signup-form>fieldset>div>label {
+
+.signup-form>fieldset>div>label {
      font-family: 'Merriweather', serif;
      margin-left: 7px;
 }
- .signup-form>fieldset>div>h3 {
+
+.signup-form>fieldset>div>h3 {
      margin: 15px 0 10px;
 }
- .text-input {
+
+.text-input {
      background: transparent;
      color: #e5e8d8;
      width: 100%;
@@ -346,22 +386,27 @@
      border: 1px solid #e5e8d8;
      border-radius: 2px;
 }
- .text-input:hover {
+
+.text-input:hover {
      border-color: #a1cc29;
 }
- #freetext {
+
+#freetext {
      background-color: #e5e8d8;
      margin: 20px 0 15px;
 }
- #plato {
+
+#plato {
      padding: 20px 0 10px;
 }
- #plato>label {
+
+#plato>label {
      font-family: 'Lato', sans-serif;
      font-size: 110%;
      font-weight: bold;
 }
- .join-button {
+
+.join-button {
      margin-top: 20px;
      border-radius: 2px;
      padding: 15px 32px 15px 32px;
@@ -371,11 +416,13 @@
      color: #e5e8d8;
      display: block;
 }
- .join-button:hover {
+
+.join-button:hover {
      background-color: #e5e8d8;
      color: #687232;
 }
- .reset-button {
+
+.reset-button {
      margin-top: 20px;
      border-radius: 2px;
      padding: 15px 32px 15px 32px;
@@ -385,24 +432,29 @@
      color: #687232;
      display: block;
 }
- .reset-button:hover {
+
+.reset-button:hover {
      background-color: #687232;
      color: #e5e8d8;
 }
- #button-in {
+
+#button-in {
      display: flex;
      margin: 0 -5px;
 }
- .butdiv {
+
+.butdiv {
      margin: 0 5px;
 }
- #thank-you {
+
+#thank-you {
      width: 100%;
      height: 900px;
      background: url(../images/top-cover.jpg) center no-repeat;
      background-size: cover;
 }
- #thank-you-nav1 {
+
+#thank-you-nav1 {
      color: #e5e8d8;
      font-family: Merriweather, sans-serif;
      letter-spacing: 2px;
@@ -417,12 +469,55 @@
      right: -10%;
      text-align: center;
 }
- #thank-you-nav1>h1 {
+
+#thank-you-nav1>h1 {
      font-size: 200%;
 }
- #thank-you-nav1>hr {
+
+#thank-you-nav1>hr {
      border: 0;
 }
- #thank-you-nav1>h2>a {
+
+#thank-you-nav1>h2>a {
      color: inherit;
+}
+
+
+/*Below for bigger sizes*/
+/* #times div {
+     color: #e5e8d8;
+     background-color: rgba(0, 0, 0, .6);
+     width: 25%;
+     height: 225px;
+     float: left;
+     padding: 10px 0 0 10px;
+     text-align: center;
+     border: 2px solid #e5e8d8;
+     box-sizing: border-box;
+}
+ */
+
+/* For medium and large screens sizes from 900px and more*/
+@media screen and (min-width: 900px) {
+     .top-logo {
+          position: absolute;
+     }
+
+     .nav-wid {
+          line-height: 75px;
+     }
+
+     .menu {
+          float: right;
+          display: flex;
+          flex-direction: row;
+          width: 720px;
+          height: 75px;
+          padding: 5px;
+     }
+
+     .menu>li {
+          flex: 1 1 auto;
+          text-align: center;
+     }
 }
