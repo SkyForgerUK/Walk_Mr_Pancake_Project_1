@@ -98,7 +98,7 @@
 }
 /* Locations cover text special styling end*/
 /* Contact Us cover text special styling start*/
- #contact-cover-text {
+ .contact-cover-text {
      text-align: center;
      font-size: 2.5em;
      line-height: 150px 
@@ -318,7 +318,7 @@
  .signup-form {
      margin: 75px 10% 0 0;
      color: #fff;
-     background-color: rgba(60, 60, 60, 0.6);
+     background-color: rgba(60, 60, 60, 0.8);
      max-width: 425px;
      position: absolute;
      left: 5%;
