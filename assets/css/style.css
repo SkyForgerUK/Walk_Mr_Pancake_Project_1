@@ -8,6 +8,8 @@
 *::before,
 *::after {
      box-sizing: border-box;
+     margin: 0;
+     padding: 0;
 }
 
 * {
@@ -95,34 +97,15 @@ body {
      text-transform: none;
 }
 
-/* Who is Pancake cover text special styling start*/
 .who-cover-text {
      text-align: center;
-     font-size: 2.5em;
+     font-size: 1.8em;
      line-height: 75px
 }
 
-/* Who is Pancake cover text special styling end*/
-/* Gallery cover text special styling start*/
-.galery-cover-text {
+.secondary-cover-text {
      text-align: center;
-     font-size: 2.5em;
-     line-height: 150px
-}
-
-/* Gallery cover text special styling end*/
-/* Locations cover text special styling start*/
-.locations-cover-text {
-     text-align: center;
-     font-size: 2.5em;
-     line-height: 150px
-}
-
-/* Locations cover text special styling end*/
-/* Contact Us cover text special styling start*/
-.contact-cover-text {
-     text-align: center;
-     font-size: 2.5em;
+     font-size: 2em;
      line-height: 150px
 }
 
