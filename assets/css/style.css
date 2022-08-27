@@ -512,10 +512,6 @@ body {
           height: 100%;
           width: 80%;
           margin: auto;
-
-
-          /* border: 2px solid red; */
-
      }
 
      .top-reasons {
@@ -538,10 +534,6 @@ body {
           width: 50%;
           height: auto;
           margin: 1%;
-
-
-          /* border: 1px solid red; */
-
      }
 
      .reasons>p {
@@ -552,5 +544,12 @@ body {
           border: 0;
      }
 
+     .photos {
+          clear: both;
+          line-height: 0;
+          column-count: 4;
+          column-gap: 0px;
+          margin-top: 40px;
+     }
 
 }
