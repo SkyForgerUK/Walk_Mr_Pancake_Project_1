@@ -77,21 +77,21 @@
      text-transform: none;
 }
 /* Who is Pancake cover text special styling start*/
- #who-cover-text {
+ .who-cover-text {
      text-align: center;
      font-size: 2.5em;
      line-height: 75px 
 }
 /* Who is Pancake cover text special styling end*/
 /* Gallery cover text special styling start*/
- #galery-cover-text {
+ .galery-cover-text {
      text-align: center;
      font-size: 2.5em;
      line-height: 150px 
 }
 /* Gallery cover text special styling end*/
 /* Locations cover text special styling start*/
- #locations-cover-text {
+ .locations-cover-text {
      text-align: center;
      font-size: 2.5em;
      line-height: 150px 
@@ -129,25 +129,25 @@
     }
 }
 /* mid part Why to join us*/
- #mid-section0 {
+ .mid-section0 {
      height: 100%;
      display: block;
 }
  .mid-section {
      height: 100%;
 }
- #question {
+ .question {
      text-align: center;
      font-family: 'Lato', sans-serif;
      font-size: 30px;
      padding: 30px 15% 10px 15%;
 }
 /* changing pic mid*/
- #left-image {
+ .left-image {
      width: 100%;
      margin: 10px auto 40px;
 }
- #circle-container {
+ .circle-container {
      width: 300px;
      height: 300px;
      padding: 30px;
@@ -157,7 +157,7 @@
      border-radius: 50%;
      margin: 0 auto;
 }
- #circle-cover-bg {
+ .circle-cover-bg {
      background: url('../images/love-philly.jpg') no-repeat center;
      background-size: cover;
      height: 100%;
@@ -199,7 +199,7 @@
      margin: 5px 0;
 }
 /* meet up times & locations*/
- #times {
+ .times {
      background-image: url('../images/Cotswolds_Panorama_Fields.jpg');
      background-color: #44434A;
      background-repeat: no-repeat;
@@ -208,7 +208,7 @@
      width: 100%;
      overflow: hidden;
 }
- #times>div {
+ .times>div {
      color: #e5e8d8;
      background-color: rgba(0, 0, 0, .6);
      width: 100%;
@@ -252,7 +252,7 @@
      color: #e5e8d8;
 }
 /* gallery */
- #photos {
+ .photos {
      clear: both;
     /* to make photos to display below the header */
      line-height: 0;
@@ -263,7 +263,7 @@
     /* removes the gaps between images (personal preference- can be what I like)*/
      margin-top: 40px;
 }
- #photos>img {
+ .photos>img {
      width: 100%;
     /* use to make all images the same size - as the above makes pics per line it will resize the images to fit nicely*/
      border: 3px solid #44434A;
