@@ -284,7 +284,7 @@
  .location-text {
      color: #e5e8d8;
      background-color: rgba(0, 0, 0, .6);
-     width: 80%;
+     width: 60%;
      clear: both;
      height: 175px;
      padding: 0;
@@ -300,7 +300,7 @@
 /*map*/
  .map {
      height: 175px;
-     width: 100%;
+     width: 40%;
      border: none;
      float: right;
      align-items: flex-start;
