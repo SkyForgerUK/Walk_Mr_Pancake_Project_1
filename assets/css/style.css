@@ -503,6 +503,14 @@ body {
           column-gap: 0px;
           margin-top: 40px;
      }
+
+     .location-text {
+          width: 70%;
+     }
+     
+     .map {
+          width: 30%;
+     }
 }
 
 @media screen and (min-width: 1200px) {
@@ -552,4 +560,12 @@ body {
           margin-top: 40px;
      }
 
+     .location-text {
+          width: 80%;
+     }
+     
+     .map {
+          width: 20%;
+     }
+     
 }
