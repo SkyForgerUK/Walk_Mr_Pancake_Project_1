@@ -283,26 +283,21 @@ hr {
 /* gallery */
 .photos {
      clear: both;
-     /* to make photos to display below the header */
      line-height: 0;
-     /* remove any horizontal gaps between the images */
      column-count: 2;
-     /* specifies how many columns max in 1 row displayed*/
      column-gap: 0px;
-     /* removes the gaps between images (personal preference- can be what I like)*/
      margin-top: 40px;
 }
 
 .photos>img {
      width: 100%;
-     /* use to make all images the same size - as the above makes pics per line it will resize the images to fit nicely*/
      border: 3px solid #44434A;
 }
 
 /* Locations page*/
 .locations-outer-nav {
      height: 175px;
-     margin: 40px auto 0;
+     margin: 20px auto 0;
      background-image: url('../images/Cotswolds_Panorama_Fields.jpg');
      background-color: #44434A;
      background-repeat: no-repeat;
@@ -311,6 +306,7 @@ hr {
      width: 100%;
      overflow: hidden;
      display: flex;
+     border: 2px solid #44434A;
 }
 
 .location-text {
@@ -322,7 +318,7 @@ hr {
      padding: 0;
      padding: 10px 0 0 10px;
      text-align: left;
-     border: 2px solid #e5e8d8;
+     border-right: 2px solid #44434A;
      box-sizing: border-box;
      font-size: 90%;
 }
@@ -520,4 +516,14 @@ hr {
           flex: 1 1 auto;
           text-align: center;
      }
+
+     .photos {
+          clear: both;
+          line-height: 0;
+          column-count: 3;
+          column-gap: 0px;
+          margin-top: 40px;
+     }
 }
+
+
