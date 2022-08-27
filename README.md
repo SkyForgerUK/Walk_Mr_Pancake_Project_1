@@ -18,12 +18,12 @@ Join Mr. Pancake For A Walk site will be useful for dog lovers to:
 
 ## User stories <!--To fill in-->
 
-- As the site owner I want:
+<!-- - As the site owner I want:
     - To introduce my idea to my neighbours and residents of Nuneaton.
     - That the site feels warm and positive.
     - A dedicated page with images from previous walks available to see to anyone visiting the site.
     - A section on the front page showing the meetup times and a dedicated page with this information including google maps links.
-    - That participants will be easely able to contact me and suggest new routes.
+    - That participants will be easely able to contact me and suggest new routes. -->
 - As a user I want:
     - To easily understand the purpose of the website.
     - To clearly see what sections I can explore in the website.
@@ -124,6 +124,8 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
         - Which walk would you like to participate in
         - Any questions or suggestions
 
+        on successfull submition 
+
 
 ## Thank You Page
 
@@ -141,7 +143,16 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 ## Features left to implement
 
+- __Landing Page__
 
+    - Replace current slide show one that feeds images directly from the gallery section 
+    
+- __Gallery Page__
+
+    - Restructure the page to enbable images to be laid out in multiple albums, seperating each walk in seperate album.
+    - Create a functionality for users to send in their images for checks and posting in Gallery Page
+
+        
 
 <!--ideas that I was not able to implement yet, but want to in future-->
 
@@ -150,6 +161,14 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 ## Typografy and color scheme
 
+### Design
+
+The design of the page is aimed towards warm colors and  fonts to create pleasant, positive and safe environment.
+
+- __Fonts__:
+
+    - Merriweather - used as a base font on the whole site
+    - Lato
 
 ### 6.  <!--Remove line-->
 
@@ -168,10 +187,10 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 ## Testing
 <!--Pdf link and a few screenshots of the prepared wireframe-->
 
-### 8.1 Code Validation
-### 8.2 test cases (user story based with screenshots)
+### 8.1 Code Validation - html and css validation
+### 8.2 test cases (user story based with screenshots) - 
 ### 8.3 fixed bugs
-### 8.4 Supported Screens and Browsers
+### 8.4 Supported Screens and Browsers - use chrome simulator
  
 
 

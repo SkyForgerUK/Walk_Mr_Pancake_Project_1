@@ -5,12 +5,9 @@ font-family: 'Lato', sans-serif;
 font-family: 'Merriweather', serif;
 font-family: 'Oswald', sans-serif; */
 
-/* html {
-    border: none;
-    margin: 0;
-} */
-
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -30,18 +27,11 @@ body {
 
 /* Navigation and logo */
 
-/* .logo-div {
-
-} */
-
-.toplogo {
+.top-logo {
     float: left;
     width: 150px;
     margin-left: auto;
-    /* position: absolute; */
 }
-
-
 
 .menu {
     font-size: 120%;
@@ -49,18 +39,15 @@ body {
     position: relative;
     padding-top: 70px;
     padding-bottom: 20px;
-
-    
 }
 
-
 .menu,
-.toplogo {
+.top-logo {
     line-height: 45px;
 }
 
 .menu li {
-        list-style-type: none;
+    list-style-type: none;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -68,7 +55,6 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-   
 }
 
 .menu a {
@@ -84,12 +70,7 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
-
 /*Hero (top cover) image and overly text*/
-
-
-
-
 .cover-text,
 .cover-text h2 {
     color: #fff;
@@ -101,21 +82,14 @@ body {
     font-family: Merriweather, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-
     width: 300px;
     height: 200px;
-
     padding-top: 20px;
     padding-left: 20px;
-
     background-color: rgba(171, 137, 176, .7);
-
     bottom: 20px;
     right: 10%;
-    
-
     position: absolute;
-
 }
 
 .cover-text h3 {
@@ -128,34 +102,32 @@ body {
     font-size: 2.5em;
     line-height: 75px
 }
+
 /* Who is Pancake cover text special styling end*/
-
-
 /* Gallery cover text special styling start*/
 #galery-cover-text {
     text-align: center;
     font-size: 2.5em;
     line-height: 150px
 }
+
 /* Gallery cover text special styling end*/
-
-
 /* Locations cover text special styling start*/
 #locations-cover-text {
     text-align: center center;
     font-size: 2.5em;
     line-height: 150px
 }
-/* Locations cover text special styling end*/
 
+/* Locations cover text special styling end*/
 /* Contact Us cover text special styling start*/
 #contact-cover-text {
     text-align: center center;
     font-size: 2.5em;
     line-height: 150px
 }
-/* Contact Us cover text special styling end*/
 
+/* Contact Us cover text special styling end*/
 
 .top-outer {
     height: 450px;
@@ -165,18 +137,15 @@ body {
     background-color: #c9c9c9;
 }
 
-
 .top-cover2 {
     height: 450px;
     width: 100%;
     display: block;
-    background: url(../images/top-cover-res2.jpg) center center  no-repeat; /* image needs changing to fill the whole page on large screens*/
+    background: url(../images/top-cover-res2.jpg) center center no-repeat;
     animation-name: pancake-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    
-     
-} 
+}
 
 @keyframes pancake-zoom {
     from {
@@ -189,46 +158,34 @@ body {
 }
 
 /* mid part Why to join us*/
-
 #mid-section0 {
     height: 100%;
     display: block;
 }
 
-
 .mid-section {
     height: 100%;
 }
 
-
 #question {
     text-align: center;
-   
-    /* margin: 20px; */
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     padding: 30px 15% 10px 15%;
-    
-
 }
 
 /* changing pic mid*/
 
 #left-image {
-    
     width: 100%;
     margin: 10px auto 40px;
-    /* float: left; */
-   
-    
-    
 }
 
 #circle-container {
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-style: solid; 
+    border-style: solid;
     border-color: #ccc;
     border-width: 3px;
     border-radius: 50%;
@@ -236,11 +193,10 @@ body {
 }
 
 #circle-cover-bg {
-   background: url('../images/love-philly.jpg') no-repeat center center;
-   background-size: cover;
-   height: 100%;
-   border-radius: 50%;
-   
+    background: url('../images/love-philly.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
 }
 
 /*text for reasons*/
@@ -265,33 +221,27 @@ body {
 }
 
 .reasons {
-    
     width: 80%;
     height: 100%;
     display: block;
     margin: 15px 10% 15px 10%;
     padding-bottom: 15px;
-   
-    /* border: 1px solid black; */
     clear: both;
-
 }
 
-.reasons > h2 {
+.reasons>h2 {
     text-transform: uppercase;
 }
 
 .bottom-reasons {
     margin-top: 0;
     padding-top: 0;
-
 }
 
 hr {
     border-top: 1px solid #44434A;
     width: 100%;
     margin: 5px 0;
-
 }
 
 /* meet up times & locations*/
@@ -303,22 +253,20 @@ hr {
     background-size: cover;
     background-position: center;
     width: 100%;
-    overflow: hidden;   
+    overflow: hidden;
 }
 
-
-#times > div {   
+#times>div {
     color: #e5e8d8;
-    background-color: rgba(0, 0, 0, .6);       
-    width: 100%; 
-    clear: both;  
-    height: 150px; 
-    padding: 0; 
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    clear: both;
+    height: 150px;
+    padding: 0;
     padding: 20px 0 0 10px;
     text-align: center;
     border: 2px solid #e5e8d8;
     box-sizing: border-box;
-    
 }
 
 
@@ -349,12 +297,9 @@ hr {
 }
 
 .socials li {
-
     display: inline-block;
     list-style: none;
-    margin: 10px 5%; 
-
-    
+    margin: 10px 5%;
 }
 
 .socials i {
@@ -362,70 +307,63 @@ hr {
     margin-top: 1%;
     padding: 5%;
     color: #e5e8d8;
-
 }
 
 
 /* gallery */
 
 #photos {
-    clear: both; /* to make photos to display below the header */
-    line-height: 0; /* remove any horizontal gaps between the images */
-    column-count: 2; /* specifies how many columns max in 1 row displayed*/
-    column-gap: 0px; /* removes the gaps between images (personal preference- can be what I like)*/
+    clear: both;
+    /* to make photos to display below the header */
+    line-height: 0;
+    /* remove any horizontal gaps between the images */
+    column-count: 2;
+    /* specifies how many columns max in 1 row displayed*/
+    column-gap: 0px;
+    /* removes the gaps between images (personal preference- can be what I like)*/
     margin-top: 40px;
 }
 
-#photos > img {
-    width: 100%; /* use to make all images the same size - as the above makes  pics per line it will resize the images to fit nicely*/
-   
+#photos>img {
+    width: 100%;
+    /* use to make all images the same size - as the above makes  pics per line it will resize the images to fit nicely*/
     border: 3px solid #44434A;
-
-
 }
-
 
 /* Locations page*/
 
 .locations-outer-nav {
-    
     height: 175px;
     margin: 40px auto 0;
-
     background-image: url('../images/Cotswolds_Panorama_Fields.jpg');
     background-color: #44434A;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    overflow: hidden; 
+    overflow: hidden;
     display: flex;
 }
 
-
-
 .location-text {
     color: #e5e8d8;
-    background-color: rgba(0, 0, 0, .6);       
-    width: 80%; 
-    clear: both;  
-    height: 175px; 
-    padding: 0; 
+    background-color: rgba(0, 0, 0, .6);
+    width: 80%;
+    clear: both;
+    height: 175px;
+    padding: 0;
     padding: 10px 0 0 10px;
     text-align: left;
     border: 2px solid #e5e8d8;
     box-sizing: border-box;
     font-size: 90%;
-    
 }
 
-.location-text > h4 {
+.location-text>h4 {
     margin-top: 5px;
 }
 
 /*map*/
-
-
 
 .map {
     height: 175;
@@ -440,10 +378,11 @@ hr {
 .form-section {
     margin-top: 40px;
     clear: left;
-    background: url(../images/october-1349737.jpg); /*freeimages.com*/
+    background: url(../images/october-1349737.jpg);
+    /*freeimages.com*/
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 910px;
 }
 
 .signup-form {
@@ -452,29 +391,23 @@ hr {
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 425px;
     position: absolute;
-    left: 10%;
-    padding: 30px;
+    left: 5%;
+    padding: 20px;
     font-family: 'Lato', sans-serif;
 }
 
-
-/* Delete at the end
-font-family: 'Lato', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'Oswald', sans-serif; */
-
-.signup-form > h2 {
+.signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
     font-size: 200%;
 }
 
-.signup-form > fieldset > div > label {
+.signup-form>fieldset>div>label {
     font-family: 'Merriweather', serif;
     margin-left: 7px;
 }
 
-.signup-form > fieldset > div > h3 {
+.signup-form>fieldset>div>h3 {
     margin: 15px 0 10px;
 }
 
@@ -495,14 +428,13 @@ font-family: 'Oswald', sans-serif; */
 #freetext {
     background-color: #e5e8d8;
     margin: 20px 0 15px;
-
 }
 
 #plato {
     padding: 20px 0 10px;
 }
 
-#plato > label {
+#plato>label {
     font-family: 'Lato', sans-serif;
     font-size: 110%;
     font-weight: bold;
@@ -517,7 +449,6 @@ font-family: 'Oswald', sans-serif; */
     background-color: #687232;
     color: #e5e8d8;
     display: block;
-    
 }
 
 .join-button:hover {
@@ -534,20 +465,16 @@ font-family: 'Oswald', sans-serif; */
     background-color: #e5e8d8;
     color: #687232;
     display: block;
-    
 }
 
 .reset-button:hover {
     background-color: #687232;
     color: #e5e8d8;
-    
 }
-
 
 #button-in {
     display: flex;
     margin: 0 -5px;
-    
 }
 
 .butdiv {
@@ -559,13 +486,7 @@ font-family: 'Oswald', sans-serif; */
     height: 900px;
     background: url(../images/top-cover.jpg) center center no-repeat;
     background-size: cover;
-    
-    
 }
-
-
-
-
 
 #thank-you-nav1 {
     color: #e5e8d8;
@@ -574,11 +495,8 @@ font-family: 'Oswald', sans-serif; */
     font-size: 80%;
     text-decoration: none;
     width: 80%;
-    height:  175px;
-
+    height: 175px;
     padding: 20px;
-    
-
     background-color: rgba(68, 67, 74, .8);
     position: relative;
     bottom: -80px;
@@ -586,15 +504,14 @@ font-family: 'Oswald', sans-serif; */
     text-align: center;
 }
 
-#thank-you-nav1 > h1 {
+#thank-you-nav1>h1 {
     font-size: 200%;
 }
 
-#thank-you-nav1 > hr {
+#thank-you-nav1>hr {
     border: 0;
 }
 
-#thank-you-nav1 > h2 > a {
+#thank-you-nav1>h2>a {
     color: inherit;
-    
 }
