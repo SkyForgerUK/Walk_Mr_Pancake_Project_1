@@ -155,13 +155,9 @@ body {
 }
 
 /* mid part Why to join us*/
-.mid-section0 {
-     height: 100%;
-     display: block;
-}
-
 .mid-section {
      height: 100%;
+     display: block;
 }
 
 .question {
@@ -195,18 +191,6 @@ body {
      border-radius: 50%;
 }
 
-/*text for reasons*/
-/* #top-center {
-     padding-top: 10px;
-     width: 33%;
-     float: right;
-}
- #top-right {
-     padding-top: 10px;
-     width: 33%;
-     float: right;
-}
- */
 .mid-h2 {
      text-align: center;
 }
@@ -224,12 +208,7 @@ body {
      text-transform: uppercase;
 }
 
-.bottom-reasons {
-     margin-top: 0;
-     padding-top: 0;
-}
-
-hr {
+.reasons>hr {
      border-top: 1px solid #44434A;
      width: 100%;
      margin: 5px 0;
@@ -526,4 +505,52 @@ hr {
      }
 }
 
+@media screen and (min-width: 1200px) {
+     .mid-section {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          width: 80%;
+          margin: auto;
 
+
+          /* border: 2px solid red; */
+
+     }
+
+     .top-reasons {
+          display: flex;
+          flex-direction: row;
+          width: 80%;
+          margin: auto;
+          margin-top: 15px;
+     }
+
+     .bottom-reasons {
+          display: flex;
+          flex-direction: row;
+          width: 80%;
+          margin: auto;
+          margin-top: 15px;
+     }
+
+     .reasons {
+          width: 50%;
+          height: auto;
+          margin: 1%;
+
+
+          /* border: 1px solid red; */
+
+     }
+
+     .reasons>p {
+          padding: 0 10px;
+     }
+
+     .reasons>hr {
+          border: 0;
+     }
+
+
+}
