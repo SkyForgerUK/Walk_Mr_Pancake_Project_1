@@ -1,517 +1,428 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:wght@300&family=Oswald:wght@300&display=swap');
-
-/* Delete at the end
-font-family: 'Lato', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'Oswald', sans-serif; */
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+/* Delete at the end font-family: 'Lato', sans-serif;
+ font-family: 'Merriweather', serif;
+ font-family: 'Oswald', sans-serif;
+ */
+ *, *::before, *::after {
+     box-sizing: border-box;
 }
-
-* {
-    margin: 0px;
-    padding: 0px;
-    border: none;
+ * {
+     margin: 0px;
+     padding: 0px;
+     border: none;
 }
-
-body {
-    background-color: #e5e8d8;
-    font-family: Merriweather, sans-serif;
-    font-weight: 300;
-    color: #44434A;
-    margin: auto;
+ body {
+     background-color: #e5e8d8;
+     font-family: Merriweather, sans-serif;
+     font-weight: 300;
+     color: #44434A;
+     margin: auto;
 }
-
 /* Navigation and logo */
-
-.top-logo {
-    float: left;
-    width: 150px;
-    margin-left: auto;
+ .top-logo {
+     float: left;
+     width: 150px;
+     margin-left: auto;
 }
-
-.menu {
-    font-size: 120%;
-    letter-spacing: 4px;
-    position: relative;
-    padding-top: 70px;
-    padding-bottom: 20px;
+ .menu {
+     font-size: 120%;
+     letter-spacing: 4px;
+     position: relative;
+     padding-top: 70px;
+     padding-bottom: 20px;
 }
-
-.menu,
-.top-logo {
-    line-height: 45px;
+ .menu, .top-logo {
+     line-height: 45px;
 }
-
-.menu li {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    height: 100%;
+ .menu li {
+     list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     margin: 0;
+     padding: 0;
+     height: 100%;
 }
-
-.menu a {
-    text-decoration: none;
-    color: inherit;
+ .menu a {
+     text-decoration: none;
+     color: inherit;
 }
-
-.menu a:hover {
-    border-bottom: 1px solid #44434A;
+ .menu a:hover {
+     border-bottom: 1px solid #44434A;
 }
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
+ .active {
+     border-bottom: 1px solid #3a3a3a;
 }
-
 /*Hero (top cover) image and overly text*/
-.cover-text,
-.cover-text h2 {
-    color: #fff;
-    padding-bottom: 7px;
+ .cover-text, .cover-text h2 {
+     color: #fff;
+     padding-bottom: 7px;
 }
-
-.cover-text {
-    font-size: 100%;
-    font-family: Merriweather, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    width: 300px;
-    height: 200px;
-    padding-top: 20px;
-    padding-left: 20px;
-    background-color: rgba(171, 137, 176, .7);
-    bottom: 20px;
-    right: 10%;
-    position: absolute;
+ .cover-text {
+     font-size: 100%;
+     font-family: Merriweather, sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     width: 300px;
+     height: 200px;
+     padding-top: 20px;
+     padding-left: 20px;
+     background-color: rgba(171, 137, 176, .7);
+     bottom: 20px;
+     right: 10%;
+     position: absolute;
 }
-
-.cover-text h3 {
-    text-transform: none;
+ .cover-text h3 {
+     text-transform: none;
 }
-
 /* Who is Pancake cover text special styling start*/
-#who-cover-text {
-    text-align: center;
-    font-size: 2.5em;
-    line-height: 75px
+ #who-cover-text {
+     text-align: center;
+     font-size: 2.5em;
+     line-height: 75px 
 }
-
 /* Who is Pancake cover text special styling end*/
 /* Gallery cover text special styling start*/
-#galery-cover-text {
-    text-align: center;
-    font-size: 2.5em;
-    line-height: 150px
+ #galery-cover-text {
+     text-align: center;
+     font-size: 2.5em;
+     line-height: 150px 
 }
-
 /* Gallery cover text special styling end*/
 /* Locations cover text special styling start*/
-#locations-cover-text {
-    text-align: center center;
-    font-size: 2.5em;
-    line-height: 150px
+ #locations-cover-text {
+     text-align: center center;
+     font-size: 2.5em;
+     line-height: 150px 
 }
-
 /* Locations cover text special styling end*/
 /* Contact Us cover text special styling start*/
-#contact-cover-text {
-    text-align: center center;
-    font-size: 2.5em;
-    line-height: 150px
+ #contact-cover-text {
+     text-align: center center;
+     font-size: 2.5em;
+     line-height: 150px 
 }
-
 /* Contact Us cover text special styling end*/
-
-.top-outer {
-    height: 450px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    background-color: #c9c9c9;
+ .top-outer {
+     height: 450px;
+     width: 100%;
+     overflow: hidden;
+     position: relative;
+     background-color: #c9c9c9;
 }
-
-.top-cover2 {
-    height: 450px;
-    width: 100%;
-    display: block;
-    background: url(../images/top-cover-res2.jpg) center center no-repeat;
-    animation-name: pancake-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+ .top-cover2 {
+     height: 450px;
+     width: 100%;
+     display: block;
+     background: url(../images/top-cover-res2.jpg) center center no-repeat;
+     animation-name: pancake-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: forwards;
 }
-
-@keyframes pancake-zoom {
-    from {
-        transform: scale(1.05);
+ @keyframes pancake-zoom {
+     from {
+         transform: scale(1.05);
     }
-
-    to {
-        transform: scale(1.0);
+     to {
+         transform: scale(1.0);
     }
 }
-
 /* mid part Why to join us*/
-#mid-section0 {
-    height: 100%;
-    display: block;
+ #mid-section0 {
+     height: 100%;
+     display: block;
 }
-
-.mid-section {
-    height: 100%;
+ .mid-section {
+     height: 100%;
 }
-
-#question {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-    padding: 30px 15% 10px 15%;
+ #question {
+     text-align: center;
+     font-family: 'Lato', sans-serif;
+     font-size: 30px;
+     padding: 30px 15% 10px 15%;
 }
-
 /* changing pic mid*/
-
-#left-image {
-    width: 100%;
-    margin: 10px auto 40px;
+ #left-image {
+     width: 100%;
+     margin: 10px auto 40px;
 }
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 3px;
-    border-radius: 50%;
-    margin: 0 auto;
+ #circle-container {
+     width: 300px;
+     height: 300px;
+     padding: 30px;
+     border-style: solid;
+     border-color: #ccc;
+     border-width: 3px;
+     border-radius: 50%;
+     margin: 0 auto;
 }
-
-#circle-cover-bg {
-    background: url('../images/love-philly.jpg') no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    border-radius: 50%;
+ #circle-cover-bg {
+     background: url('../images/love-philly.jpg') no-repeat center center;
+     background-size: cover;
+     height: 100%;
+     border-radius: 50%;
 }
-
 /*text for reasons*/
-
-
 /* #top-center {
-    padding-top: 10px;
-    width: 33%;
-    float: right;
+     padding-top: 10px;
+     width: 33%;
+     float: right;
 }
-
-
-#top-right {
-    padding-top: 10px;
-    width: 33%;
-    float: right;
-
-} */
-
-.mid-h2 {
-    text-align: center;
+ #top-right {
+     padding-top: 10px;
+     width: 33%;
+     float: right;
 }
-
-.reasons {
-    width: 80%;
-    height: 100%;
-    display: block;
-    margin: 15px 10% 15px 10%;
-    padding-bottom: 15px;
-    clear: both;
+ */
+ .mid-h2 {
+     text-align: center;
 }
-
-.reasons>h2 {
-    text-transform: uppercase;
+ .reasons {
+     width: 80%;
+     height: 100%;
+     display: block;
+     margin: 15px 10% 15px 10%;
+     padding-bottom: 15px;
+     clear: both;
 }
-
-.bottom-reasons {
-    margin-top: 0;
-    padding-top: 0;
+ .reasons>h2 {
+     text-transform: uppercase;
 }
-
-hr {
-    border-top: 1px solid #44434A;
-    width: 100%;
-    margin: 5px 0;
+ .bottom-reasons {
+     margin-top: 0;
+     padding-top: 0;
 }
-
+ hr {
+     border-top: 1px solid #44434A;
+     width: 100%;
+     margin: 5px 0;
+}
 /* meet up times & locations*/
-
-#times {
-    background-image: url('../images/Cotswolds_Panorama_Fields.jpg');
-    background-color: #44434A;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
+ #times {
+     background-image: url('../images/Cotswolds_Panorama_Fields.jpg');
+     background-color: #44434A;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     overflow: hidden;
 }
-
-#times>div {
-    color: #e5e8d8;
-    background-color: rgba(0, 0, 0, .6);
-    width: 100%;
-    clear: both;
-    height: 150px;
-    padding: 0;
-    padding: 20px 0 0 10px;
-    text-align: center;
-    border: 2px solid #e5e8d8;
-    box-sizing: border-box;
+ #times>div {
+     color: #e5e8d8;
+     background-color: rgba(0, 0, 0, .6);
+     width: 100%;
+     clear: both;
+     height: 150px;
+     padding: 0;
+     padding: 20px 0 0 10px;
+     text-align: center;
+     border: 2px solid #e5e8d8;
+     box-sizing: border-box;
 }
-
-
-
-
 /*Below for bigger sizes*/
-
 /* #times div {
-    color: #e5e8d8;
-    background-color: rgba(0, 0, 0, .6);
-    width: 25%;
-    height: 225px;
-    float: left;
-    padding: 10px 0 0 10px;
-    text-align: center;
-    border: 2px solid #e5e8d8;
-    box-sizing: border-box;
-} */
-
-
+     color: #e5e8d8;
+     background-color: rgba(0, 0, 0, .6);
+     width: 25%;
+     height: 225px;
+     float: left;
+     padding: 10px 0 0 10px;
+     text-align: center;
+     border: 2px solid #e5e8d8;
+     box-sizing: border-box;
+}
+ */
 /* footer */
-
-.socials {
-    text-align: center;
-    background-color: #44434A;
-    margin: 40px 0 0 0;
-    padding: 1% 0;
+ .socials {
+     text-align: center;
+     background-color: #44434A;
+     margin: 40px 0 0 0;
+     padding: 1% 0;
 }
-
-.socials li {
-    display: inline-block;
-    list-style: none;
-    margin: 10px 5%;
+ .socials li {
+     display: inline-block;
+     list-style: none;
+     margin: 10px 5%;
 }
-
-.socials i {
-    font-size: 200%;
-    margin-top: 1%;
-    padding: 5%;
-    color: #e5e8d8;
+ .socials i {
+     font-size: 200%;
+     margin-top: 1%;
+     padding: 5%;
+     color: #e5e8d8;
 }
-
-
 /* gallery */
-
-#photos {
-    clear: both;
+ #photos {
+     clear: both;
     /* to make photos to display below the header */
-    line-height: 0;
+     line-height: 0;
     /* remove any horizontal gaps between the images */
-    column-count: 2;
+     column-count: 2;
     /* specifies how many columns max in 1 row displayed*/
-    column-gap: 0px;
+     column-gap: 0px;
     /* removes the gaps between images (personal preference- can be what I like)*/
-    margin-top: 40px;
+     margin-top: 40px;
 }
-
-#photos>img {
-    width: 100%;
-    /* use to make all images the same size - as the above makes  pics per line it will resize the images to fit nicely*/
-    border: 3px solid #44434A;
+ #photos>img {
+     width: 100%;
+    /* use to make all images the same size - as the above makes pics per line it will resize the images to fit nicely*/
+     border: 3px solid #44434A;
 }
-
 /* Locations page*/
-
-.locations-outer-nav {
-    height: 175px;
-    margin: 40px auto 0;
-    background-image: url('../images/Cotswolds_Panorama_Fields.jpg');
-    background-color: #44434A;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
+ .locations-outer-nav {
+     height: 175px;
+     margin: 40px auto 0;
+     background-image: url('../images/Cotswolds_Panorama_Fields.jpg');
+     background-color: #44434A;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     overflow: hidden;
+     display: flex;
 }
-
-.location-text {
-    color: #e5e8d8;
-    background-color: rgba(0, 0, 0, .6);
-    width: 80%;
-    clear: both;
-    height: 175px;
-    padding: 0;
-    padding: 10px 0 0 10px;
-    text-align: left;
-    border: 2px solid #e5e8d8;
-    box-sizing: border-box;
-    font-size: 90%;
+ .location-text {
+     color: #e5e8d8;
+     background-color: rgba(0, 0, 0, .6);
+     width: 80%;
+     clear: both;
+     height: 175px;
+     padding: 0;
+     padding: 10px 0 0 10px;
+     text-align: left;
+     border: 2px solid #e5e8d8;
+     box-sizing: border-box;
+     font-size: 90%;
 }
-
-.location-text>h4 {
-    margin-top: 5px;
+ .location-text>h4 {
+     margin-top: 5px;
 }
-
 /*map*/
-
-.map {
-    height: 175;
-    width: 100%;
-    border: none;
-    float: right;
-    align-items: flex-start;
+ .map {
+     height: 175;
+     width: 100%;
+     border: none;
+     float: right;
+     align-items: flex-start;
 }
-
 /*Contact us section*/
-
-.form-section {
-    margin-top: 40px;
-    clear: left;
-    background: url(../images/october-1349737.jpg);
+ .form-section {
+     margin-top: 40px;
+     clear: left;
+     background: url(../images/october-1349737.jpg);
     /*freeimages.com*/
-    background-size: cover;
-    background-position: center;
-    height: 910px;
+     background-size: cover;
+     background-position: center;
+     height: 910px;
 }
-
-.signup-form {
-    margin: 75px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 425px;
-    position: absolute;
-    left: 5%;
-    padding: 20px;
-    font-family: 'Lato', sans-serif;
+ .signup-form {
+     margin: 75px 10% 0 0;
+     color: #fff;
+     background-color: rgba(60, 60, 60, 0.6);
+     max-width: 425px;
+     position: absolute;
+     left: 5%;
+     padding: 20px;
+     font-family: 'Lato', sans-serif;
 }
-
-.signup-form>h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-    font-size: 200%;
+ .signup-form>h2 {
+     color: #fafafa;
+     margin-bottom: 20px;
+     font-size: 200%;
 }
-
-.signup-form>fieldset>div>label {
-    font-family: 'Merriweather', serif;
-    margin-left: 7px;
+ .signup-form>fieldset>div>label {
+     font-family: 'Merriweather', serif;
+     margin-left: 7px;
 }
-
-.signup-form>fieldset>div>h3 {
-    margin: 15px 0 10px;
+ .signup-form>fieldset>div>h3 {
+     margin: 15px 0 10px;
 }
-
-.text-input {
-    background: transparent;
-    color: #e5e8d8;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px;
-    border: 1px solid #e5e8d8;
-    border-radius: 2px;
+ .text-input {
+     background: transparent;
+     color: #e5e8d8;
+     width: 100%;
+     height: 25px;
+     margin: 5px 0 20px;
+     border: 1px solid #e5e8d8;
+     border-radius: 2px;
 }
-
-.text-input:hover {
-    border-color: #a1cc29;
+ .text-input:hover {
+     border-color: #a1cc29;
 }
-
-#freetext {
-    background-color: #e5e8d8;
-    margin: 20px 0 15px;
+ #freetext {
+     background-color: #e5e8d8;
+     margin: 20px 0 15px;
 }
-
-#plato {
-    padding: 20px 0 10px;
+ #plato {
+     padding: 20px 0 10px;
 }
-
-#plato>label {
-    font-family: 'Lato', sans-serif;
-    font-size: 110%;
-    font-weight: bold;
+ #plato>label {
+     font-family: 'Lato', sans-serif;
+     font-size: 110%;
+     font-weight: bold;
 }
-
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #687232;
-    color: #e5e8d8;
-    display: block;
+ .join-button {
+     margin-top: 20px;
+     border-radius: 2px;
+     padding: 15px 32px 15px 32px;
+     text-align: center;
+     font-size: 100%;
+     background-color: #687232;
+     color: #e5e8d8;
+     display: block;
 }
-
-.join-button:hover {
-    background-color: #e5e8d8;
-    color: #687232;
+ .join-button:hover {
+     background-color: #e5e8d8;
+     color: #687232;
 }
-
-.reset-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #e5e8d8;
-    color: #687232;
-    display: block;
+ .reset-button {
+     margin-top: 20px;
+     border-radius: 2px;
+     padding: 15px 32px 15px 32px;
+     text-align: center;
+     font-size: 100%;
+     background-color: #e5e8d8;
+     color: #687232;
+     display: block;
 }
-
-.reset-button:hover {
-    background-color: #687232;
-    color: #e5e8d8;
+ .reset-button:hover {
+     background-color: #687232;
+     color: #e5e8d8;
 }
-
-#button-in {
-    display: flex;
-    margin: 0 -5px;
+ #button-in {
+     display: flex;
+     margin: 0 -5px;
 }
-
-.butdiv {
-    margin: 0 5px;
+ .butdiv {
+     margin: 0 5px;
 }
-
-#thank-you {
-    width: 100%;
-    height: 900px;
-    background: url(../images/top-cover.jpg) center center no-repeat;
-    background-size: cover;
+ #thank-you {
+     width: 100%;
+     height: 900px;
+     background: url(../images/top-cover.jpg) center center no-repeat;
+     background-size: cover;
 }
-
-#thank-you-nav1 {
-    color: #e5e8d8;
-    font-family: Merriweather, sans-serif;
-    letter-spacing: 2px;
-    font-size: 80%;
-    text-decoration: none;
-    width: 80%;
-    height: 175px;
-    padding: 20px;
-    background-color: rgba(68, 67, 74, .8);
-    position: relative;
-    bottom: -80px;
-    right: -10%;
-    text-align: center;
+ #thank-you-nav1 {
+     color: #e5e8d8;
+     font-family: Merriweather, sans-serif;
+     letter-spacing: 2px;
+     font-size: 80%;
+     text-decoration: none;
+     width: 80%;
+     height: 175px;
+     padding: 20px;
+     background-color: rgba(68, 67, 74, .8);
+     position: relative;
+     bottom: -80px;
+     right: -10%;
+     text-align: center;
 }
-
-#thank-you-nav1>h1 {
-    font-size: 200%;
+ #thank-you-nav1>h1 {
+     font-size: 200%;
 }
-
-#thank-you-nav1>hr {
-    border: 0;
+ #thank-you-nav1>hr {
+     border: 0;
 }
-
-#thank-you-nav1>h2>a {
-    color: inherit;
+ #thank-you-nav1>h2>a {
+     color: inherit;
 }
