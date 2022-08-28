@@ -10,6 +10,8 @@ Join Mr. Pancake For A Walk site will be useful for dog lovers to:
 2. Enjoy the gallery filled with pictures from the previous walks
 3. Suggest new paths for the community to try out
 
+![mockup](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/mockup.jpg)
+
 
 ## User stories 
 
