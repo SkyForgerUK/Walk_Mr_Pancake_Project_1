@@ -582,16 +582,27 @@ Testing was carried out by using every device that was available to the poject d
   <summary>Performance results</summary>
 
 - Landing page:
+
    ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-landing.jpg)
-- Mr. Pancake page:   
+
+- Mr. Pancake page:
+
    ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-mr-pancake.jpg)
+
 - Gallery:    
+
    ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-gallery.jpg)
+
 - Locations page: 
+
    ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-locations.jpg)
+
 - Contact Us page: 
+
    ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-contacts.jpg)
+
 - Thank You page: 
+
    ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-thank-you.jpg) 
 
 </details> 
