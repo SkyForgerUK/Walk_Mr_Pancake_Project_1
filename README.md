@@ -277,11 +277,13 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 
 <details>
   <summary>HTML Error Message</summary>
-   ![HTML Error Message]() 
+
+ ![HTML Error Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/html_validator_1st_try.jpg) 
 </details>
 <details>
   <summary>HTML Pass Message</summary>
-   ![HTML Pass Message]() 
+
+   ![HTML Pass Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/html_validator_pass.jpg) 
 </details>
 
 - __W3C CSS Validator__
@@ -292,11 +294,12 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 
   <details>
   <summary>CSS Error Message</summary>
-   ![CSS Error Message]() 
+   ![CSS Error Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/css_validator_1st_try.jpg) 
 </details>
 <details>
   <summary>CSS Pass Message</summary>
-   ![CSS Pass Message]() 
+
+   ![CSS Pass Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/css_validator_pass.jpg) 
 </details>       
 
 ### 8.2 Test cases (user story based with screenshots)
@@ -312,7 +315,8 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 <br>
 <details>
   <summary>Purpose screenshot</summary>
-   ![Purpose screensho]() 
+
+   ![Purpose screensho](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/purpose-website.jpg) 
 </details>  
 <br>
 
@@ -326,7 +330,9 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 
 <details>
   <summary>Navigation bar screenshot</summary>
-   ![Navigation bar]() 
+
+   ![Navigation bar small](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/navigation-bar-small.jpg)
+   ![Navigation bar large](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/navigation-bar-large.jpg) 
 </details>  
 <br>
 
@@ -335,7 +341,8 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 
 <details>
   <summary>Mr. Pancake page screenshot</summary>
-   ![Navigation bar]() 
+
+   ![Mr. Pancake page screenshot](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/who-mr-pancake.jpg) 
 </details> 
 <br> 
 
@@ -345,11 +352,13 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 
  <details>
   <summary>Home page screenshot</summary>
-   ![Home page]() 
+
+   ![Home page](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/home-page-meet-up-bar.jpg) 
 </details> 
 <details>
   <summary>Locations page screenshot</summary>
-   ![Locations page]() 
+
+   ![Locations page](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/locations-page.jpg) 
 </details> 
 <br>    
 
@@ -358,7 +367,8 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 
 <details>
   <summary>Contact Us screenshot</summary>
-   ![Contact Us]() 
+
+   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/contact-us-page.jpg) 
 </details> 
 <br> 
 
@@ -367,7 +377,8 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 
 <details>
   <summary>Thank you screenshot</summary>
-   ![Thank you]() 
+  
+   ![Thank you](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/thank-you-screenshot.JPG) 
 </details> 
 <br> 
 
