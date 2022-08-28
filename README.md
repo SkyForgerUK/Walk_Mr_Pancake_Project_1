@@ -243,7 +243,7 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
     - To validate the CSS
 
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-   To review code and test it during the development process
+   - To review code and test it during the development process
 
 - [Multi device mockup generator](https://techsini.com/multi-mockup/)
     - To generate a mockup image for the Readme file
@@ -263,7 +263,43 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 ## Testing
 <!--Pdf link and a few screenshots of the prepared wireframe-->
 
-### 8.1 Code Validation - html and css validation
+### 8.1 Code Validation - HTML and CSS validation
+
+ - __W3C Markup Validator__
+
+    - On the first try validator reported 4 errors spanning accross all pages:
+        - First two were connected and by adding a missed /div they were cleared
+        - Then a stray /i and a stray /a end tags were removed
+
+    - There was an additional error on the Contact Us page:
+        - The identical id values occured durring the multiplying of the code lines, error was cleared by assigningunoque id's to two lines
+
+<details>
+  <summary>HTML Error Message</summary>
+   ![HTML Error Message]() 
+</details>
+<details>
+  <summary>HTML Pass Message</summary>
+   ![HTML Pass Message]() 
+</details>
+
+- __W3C CSS Validator__
+
+    - On the first try validator reported 3 errors:
+        - Two text-align errors with duplicating center value, cleared by removing the duplicating value
+        - Last error was a value error on Google embeded maps where % cannot be used, fixed by applying a large enough value to cover the width needed
+
+  <details>
+  <summary>CSS Error Message</summary>
+   ![CSS Error Message]() 
+</details>
+<details>
+  <summary>CSS Pass Message</summary>
+   ![CSS Pass Message]() 
+</details>       
+
+
+
 ### 8.2 test cases (user story based with screenshots) - 
 ### 8.3 fixed bugs
 ### 8.4 Supported Screens and Browsers - use chrome simulator
@@ -276,10 +312,14 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 ## Deployment
 <!--This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)-->
 
+- __Via GitPod__
+
+- __Via GitHub__
+
 
 ### 10.  <!--Remove line-->
 
-## Deployment
+## Credits
 <!--In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.-->
 
 ### Content
