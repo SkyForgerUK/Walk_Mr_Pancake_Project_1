@@ -178,7 +178,9 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
   - __Color Scheme__:  
 
     - Primary color:
-    
+    ![Primary color] url(docs/color-primary.jpg)
+
+
 
 ### 6.  <!--Remove line-->
 
