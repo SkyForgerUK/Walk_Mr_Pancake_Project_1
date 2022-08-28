@@ -377,13 +377,30 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 
 <details>
   <summary>Thank you screenshot</summary>
-  
+
    ![Thank you](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/thank-you-screenshot.JPG) 
 </details> 
 <br> 
 
 
 ### 8.3 Fixed bugs
+
+- __Logo not showing on the published page__
+
+    - In the page header the path to the logo image started like - "/assets/..." so i changed it to "assets/..." and the issue was fixed
+
+- __Thank you page background image overlapping the nav bar for screen sizes over 900px__
+
+    - Created a new set of styling in "@media screen and (min-width: 900px)" to counter teh issue - fixed
+
+ ### Not fixed bugs
+
+ - __Logo on screens below 900px does not respond to clicks - shortcut to Home page__
+    - This bug will be fixed after project submission   
+
+  <br>      
+
+
 ### 8.4 Supported Screens and Browsers - use chrome simulator
  
 
