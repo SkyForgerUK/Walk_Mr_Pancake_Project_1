@@ -1,4 +1,4 @@
-! [Logo] (https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/do-logo-nav-small.png)
+! [Logo](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/do-logo-nav-small.png)
 
 # Join Mr. Pancake For A Walk!
 
@@ -76,6 +76,14 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
     - Minimalistic information about meet up locations is presented on a beautiful background.
     - By clicking on any of the panels users are brought directly to the Location page where more info and interactive maps are available.
 
+<details>
+
+  <summary>Landing Page screenshot</summary>
+
+ ![Landing Page screenshot](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/s-home-page.jpg)
+
+</details>
+
 <br>
 
 ## Mr. Pancake Page
@@ -89,6 +97,14 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
         - What does he like
         - What he is looking for 
 
+<details>
+
+  <summary>Mr. Pancake Page screenshot</summary>
+
+ ![Mr. Pancake Page screenshot](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/s-mr-pancake-page.jpg)
+
+</details>
+
 <br>
 
 ## Gallery Page
@@ -98,6 +114,14 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
     - Contains various pictures with dogs and their owners pre, post and during walks.
     - Images are styled so that depending of the size of the screen the images will be shown in two, three or four columns.
     
+<details>
+
+  <summary>Gallery Page screenshot</summary>
+
+ ![Gallery Page screenshot](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/s-gallery-page.jpg)
+
+</details>
+
 <br>
 
 ## Locations Page
@@ -110,9 +134,17 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
         - Full information of meet up locations on the left
         - Interactive, embedded google mps for start point of each walk
 
+<details>
+
+  <summary>Locations Page screenshot</summary>
+
+ ![Locations Page screenshot](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/s-locations-page.jpg)
+
+</details>
+
 <br>
 
-## Contact Page
+## Contact us Page
 
 - __Contact Us:__
 
@@ -127,6 +159,14 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
         - Which walk would you like to participate in
         - Any questions or suggestions
 
+<details>
+
+  <summary>Contact Us Page screenshot</summary>
+
+ ![Contact Us Page screenshot](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/s-contact-page.jpg)
+
+</details>
+
 <br>
 
 ## Thank You Page
@@ -134,6 +174,14 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 - __Thank you__
     - Opens when users have correctly filled in and submited a "Contact Us" form.
     - Contains a thank you text with  "please click here" to return top home page.
+
+<details>
+
+  <summary>Thank You Page screenshot</summary>
+
+ ![Thank You Page screenshot](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/s-thank-you-page.jpg)
+
+</details>      
             
 <br>
 
@@ -549,15 +597,7 @@ Testing was carried out by using every device that was available to the poject d
 </details> 
 <br >
 
-
-### 9.  <!--Remove line-->
-
 ## Deployment
-<!--This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)-->
-
-- __Via GitPod__
-    - 
-
 
 - __Via GitHub__
     - Open a web browser
@@ -582,16 +622,13 @@ SkyForgerUK/Walk_Mr_Pancake_Project_1"
 </details> 
 <br>   
 
-
-### 10.  <!--Remove line-->
-
 ## Credits
-<!--In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.-->
 
 ### Content
 - All content writtent by the project developer, a part of the Dachshund breed summary which was taken form [dogtime.com](https://dogtime.com/dog-breeds/dachshund#/slide/1)
--   The icons in footer, and in main section on Home Page and Mr. Pancake page are taken from [Font Awesome](https://fontawesome.com/)
+- The icons in footer, and in main section on Home Page and Mr. Pancake page are taken from [Font Awesome](https://fontawesome.com/)
 - Fonts 'Lato' and 'Merriweather' where taken from [Google Fonts](https://fonts.google.com/)
+- For help with the code [w3schools](https://www.w3schools.com/) was used 
 
 ### Media
 - Header Puppy Logo was taken from [KindPng](kindpng.com)
