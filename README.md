@@ -31,6 +31,7 @@ Join Mr. Pancake For A Walk site will be useful for dog lovers to:
     - To understand who Mr. Pancake is.
     - To easely get to meet up times and locations information.
     - To be able to contact organizers in case of questions.
+    - To receive a confirmation on successful contact for submission.
 
 
 
@@ -298,9 +299,76 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
    ![CSS Pass Message]() 
 </details>       
 
+### 8.2 Test cases (user story based with screenshots)
 
 
-### 8.2 test cases (user story based with screenshots) - 
+- __User Cases__
+
+ - To easily understand the purpose of the website.
+    - When the Landing page opens cover text with "Dog walks in Nuneaton where anyone can join" is visible providing the user with information about the purpose of the website
+
+<details>
+  <summary>Purpose screenshot</summary>
+   ![Purpose screensho]() 
+</details>  
+<br>
+
+- To clearly see what sections I can explore in the website.
+    - On the landing page the Navigation bar provides a summary of the site
+
+<br>
+
+- To easily reach each section.
+    - Navigation bar is always visible at the top at the website making it easy to navigate trough pages
+
+<details>
+  <summary>Navigation bar screenshot</summary>
+   ![Navigation bar]() 
+</details>  
+<br>
+
+- To understand who Mr. Pancake is.
+    - Using navigation bar moving to section Mr. Pancake, window with the required information opens 
+
+<details>
+  <summary>Mr. Pancake page screenshot</summary>
+   ![Navigation bar]() 
+</details> 
+<br> 
+
+- To easely get to meet up times and locations information.
+    - On landing page, scroll past the reasons for joining a walk, a list of times and loctations is available
+    - On landing page clicking on Locations in Navigation bar a page with meet up information and embedded Google maps opens
+
+ <details>
+  <summary>Home page screenshot</summary>
+   ![Home page]() 
+</details> 
+<details>
+  <summary>Locations page screenshot</summary>
+   ![Locations page]() 
+</details> 
+<br>    
+
+- To be able to contact organizers in case of questions.
+    - Using Navigation bar, click on  "Contact Us" the Contact pahge opens with a cintact form available
+
+<details>
+  <summary>Contact Us screenshot</summary>
+   ![Contact Us]() 
+</details> 
+<br> 
+
+- To receive a confirmation on successful contact for submission
+    - Clicking on "Contact Us" on Navigation bar opens a form that, when successfully is filled in, opens a page with a "Thank you for contacting us!" message displayed
+
+<details>
+  <summary>Thank you screenshot</summary>
+   ![Thank you]() 
+</details> 
+<br> 
+
+
 ### 8.3 fixed bugs
 ### 8.4 Supported Screens and Browsers - use chrome simulator
  
