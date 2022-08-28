@@ -548,6 +548,28 @@ body {
           width: 25%;
      }
 
+     .times {
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          overflow: hidden;
+          display: flex;
+          flex-direction: row;
+     }
+
+     .times>div {
+          color: #e5e8d8;
+          background-color: rgba(0, 0, 0, .6);
+          width: 25%;
+          height: 175px;
+          float: left;
+          padding: 30px 0 0 10px;
+          text-align: center;
+          border: 2px solid #e5e8d8;
+          box-sizing: border-box;
+     }
+
 }
 
 @media screen and (max-width: 374px) {

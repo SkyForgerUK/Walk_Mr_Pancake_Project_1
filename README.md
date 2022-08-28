@@ -301,12 +301,15 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 
 ### 8.2 Test cases (user story based with screenshots)
 
+<br>
 
 - __User Cases__
 
- - To easily understand the purpose of the website.
-    - When the Landing page opens cover text with "Dog walks in Nuneaton where anyone can join" is visible providing the user with information about the purpose of the website
+<br>
 
+- To easily understand the purpose of the website.
+    - When the Landing page opens cover text with "Dog walks in Nuneaton where anyone can join" is visible providing the user with information about the purpose of the website
+<br>
 <details>
   <summary>Purpose screenshot</summary>
    ![Purpose screensho]() 
@@ -369,7 +372,7 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 <br> 
 
 
-### 8.3 fixed bugs
+### 8.3 Fixed bugs
 ### 8.4 Supported Screens and Browsers - use chrome simulator
  
 
