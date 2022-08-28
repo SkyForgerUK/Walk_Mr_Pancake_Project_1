@@ -178,7 +178,7 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
   - __Color Scheme__:  
 
     - Primary color:
-    ![Primary color] url(docs/color-primary.jpg)
+    ![Primary color](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/color-primary.jpg)
 
 
 
