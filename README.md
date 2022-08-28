@@ -20,7 +20,7 @@ Visit the Deployed website [here](https://skyforgeruk.github.io/Walk_Mr_Pancake_
 - [Existing Features](#existing-features)
   - [Navigation Bar and Footer](#navigation-bar-and-footer)
   - [Landing Page](#landing-page)
-  - [Mr. Pancake Page](#mr.-pancake-page)
+  - [Mr. Pancake Page](#mr-pancake-page)
   - [Gallery Page](#gallery-page)
   - [Locations Page](#locations-page)
   - [Contact us Page](#contact-us-page)
@@ -41,7 +41,7 @@ Visit the Deployed website [here](https://skyforgeruk.github.io/Walk_Mr_Pancake_
     - To receive a confirmation on successful contact for submission.
 
 
-## Exiting Features
+## Existing Features
 
 There are six pages: 
 - Home page
