@@ -1,4 +1,4 @@
-! [Logo](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/logo-screenshot.jpg)
+![Logo](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/logo-screenshot.jpg)
 
 # Join Mr. Pancake For A Walk!
 
