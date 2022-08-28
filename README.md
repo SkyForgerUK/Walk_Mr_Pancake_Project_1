@@ -1,4 +1,4 @@
-! [Logo] (url)<!-- here goes the logo-->
+! [Logo] (https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/do-logo-nav-small.png)
 
 # Join Mr. Pancake For A Walk!
 
@@ -39,7 +39,13 @@ Join Mr. Pancake For A Walk site will be useful for dog lovers to:
 
 ## Exiting Features
 
-There are six pages: Home page, Who is Mr.Pancake page, Gallery, Locations, Contact page and a Thank you page once user has submited a filled in contact form.
+There are six pages: 
+- Home page
+- Who is Mr.Pancake page
+- Gallery
+- Locations
+- Contact page
+- Thank You page (once user has sucessfully submited the Contact Us form)
 
 ### Navigation bar and Footer
 
