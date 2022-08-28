@@ -429,7 +429,7 @@ Testing was carried out by using every device that was available to the poject d
 </details> 
 <br> 
 
-- __General test__
+- __General Testing__
     -
 
 <details>
