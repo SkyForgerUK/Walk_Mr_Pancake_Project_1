@@ -229,13 +229,13 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
     - To acquire 'Lato' and 'Merriweather' font to use on the site
 
 - [Clean css](https://www.cleancss.com/css-beautify/) 
-    css formatting tool
+    - CSS formatting tool
 
 - [Google rgb color picker](https://www.google.com/search?q=rgb+color+picker&rlz=1C1GCEB_enGB1012GB1012&oq=rgb+color&aqs=chrome.0.0i433i512j69i57j0i512l8.3968j0j7&sourceid=chrome&ie=UTF-8)
     - For choosing the colors for the whole site
 
 - [Font Awesome](https://fontawesome.com/)
-    - for adding icons to Home and Mr. Pancake pages
+    - For adding icons to Home and Mr. Pancake pages
 
 - [W3C Markup Validator](https://validator.w3.org/) 
     - To validate the HTML code accros all pages
@@ -354,7 +354,7 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 <br>    
 
 - To be able to contact organizers in case of questions.
-    - Using Navigation bar, click on  "Contact Us" the Contact pahge opens with a cintact form available
+    - Using Navigation bar, click on  "Contact Us" the Contact page opens with a contact form available
 
 <details>
   <summary>Contact Us screenshot</summary>
