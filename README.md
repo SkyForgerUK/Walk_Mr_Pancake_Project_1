@@ -26,6 +26,20 @@ Visit the Deployed website [here](https://skyforgeruk.github.io/Walk_Mr_Pancake_
   - [Contact us Page](#contact-us-page)
   - [Thank You Page](#thank-you-page)
 - [Features left to implement](#features-left-to-implement)
+- [Typografy and color scheme](#typografy-and-color-scheme)
+- [Wireframes](#wireframes)
+- [Technology](#technology)
+- [Testing](#testing)
+  - [Code Validation - HTML and CSS validation](#code-validation---html-and-css-validation)
+  - [Test cases](#test-cases)
+  - [General Testing](#general-testing)
+  - [Fixed bugs](#fixed-bugs)
+  - [Not fixed bugs](#not-fixed-bugs)
+  - [Supported Screens, Browsers and Performance](#supported-screens-browsers-and-performance)
+  - [Performance](#performance)
+- [Deployment](#deployment)
+- [Credits](#credits)
+
 
 <br>
 
@@ -360,12 +374,12 @@ Testing was carried out by using every device that was available to the poject d
 
 <br>
 
-### Test cases (user story based with screenshots)
+### Test cases 
 
 <br>
 
 - __User Cases__
-    -
+
 
 
 - To easily understand the purpose of the website.
@@ -447,8 +461,8 @@ Testing was carried out by using every device that was available to the poject d
 </details> 
 <br> 
 
-- __General Testing__
-    -
+### General Testing
+    
 
 <details>
 
