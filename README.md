@@ -433,6 +433,9 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 
 ### Performance
 
+- Performance tested using Chrome Lighthouse extension.
+    - Lower performance scores mainly due to imgage file type, size and embededd maps from Google
+
 <details>
   <summary>Performance results</summary>
 
@@ -444,10 +447,7 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
    ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-thank-you.jpg) 
 
 </details> 
-
-
- 
-
+<br >
 
 
 ### 9.  <!--Remove line-->
@@ -456,8 +456,31 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 <!--This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)-->
 
 - __Via GitPod__
+    - 
+
 
 - __Via GitHub__
+    - Open a web browser
+    - Go to address https://github.com/
+    - Log in my GitHub account
+    - On the left side a selection of recent repositories will be visible, click on "
+SkyForgerUK/Walk_Mr_Pancake_Project_1"
+    - Click on settings button
+    - Click on "Pages" button
+    - In "Branch" field click on "None" button and select "main" from drop down menu
+    - Click "Save" button
+    - Wait 1-4 minutes
+    - Refresh page
+    - A link at the top part of the screen will become available
+    - use this link to access the, now published, website
+
+<details>
+  <summary>Performance results</summary>
+
+   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/publish-screenshot.jpg)
+  
+</details> 
+<br>   
 
 
 ### 10.  <!--Remove line-->
@@ -466,6 +489,7 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 <!--In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.-->
 
 ### Content
+-   
 
 ### Media
 
