@@ -12,8 +12,24 @@ Join Mr. Pancake For A Walk site will be useful for dog lovers to:
 
 ![mockup](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/mockup.jpg)
 
+Visit the Deployed website [here](https://skyforgeruk.github.io/Walk_Mr_Pancake_Project_1/index.html)
 
-## User stories 
+
+## Table of Content
+- [User Stories](#user-stories)
+- [Existing Features](#existing-features)
+  - [Navigation Bar and Footer](#navigation-bar-and-footer)
+  - [Landing Page](#landing-page)
+  - [Mr. Pancake Page](#mr.-pancake-page)
+  - [Gallery Page](#gallery-page)
+  - [Locations Page](#locations-page)
+  - [Contact us Page](#contact-us-page)
+  - [Thank You Page](#thank-you-page)
+- [Features left to implement](#features-left-to-implement)
+
+<br>
+
+## User Stories 
 
 - As a user I want:
     - To easily understand the purpose of the website.
@@ -35,7 +51,7 @@ There are six pages:
 - Contact page
 - Thank You page (once user has sucessfully submited the Contact Us form)
 
-### Navigation bar and Footer
+### Navigation Bar and Footer
 
 Both Nav bar and footer are responsive to the size of the screen being used to read the website.
 
@@ -146,7 +162,7 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 <br>
 
-## Contact us Page
+## Contact Us Page
 
 - __Contact Us:__
 
