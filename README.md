@@ -626,7 +626,7 @@ SkyForgerUK/Walk_Mr_Pancake_Project_1"
     - use this link to access the, now published, website
 
 <details>
-  <summary>Performance results</summary>
+  <summary>Link Page screenshot</summary>
 
    ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/publish-screenshot.jpg)
   
