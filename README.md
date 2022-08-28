@@ -462,7 +462,7 @@ Testing was carried out by using every device that was available to the poject d
 
 <details>
 
-  <summary>Mr. Pancakeg page</summary>
+  <summary>Mr. Pancake page</summary>
 
   |Action | Expected behavious | Result|
   |-------|--------------------|-------|
