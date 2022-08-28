@@ -38,7 +38,7 @@ Join Mr. Pancake For A Walk site will be useful for dog lovers to:
 
 ## Exiting Features
 
-There are five pages: Home page, Who is Mr.Pancake page, Gallery, Locations, and Contact page
+There are six pages: Home page, Who is Mr.Pancake page, Gallery, Locations, Contact page and a Thank you page once user has submited a filled in contact form.
 
 ### Navigation bar and Footer
 
@@ -143,9 +143,14 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 ## Features left to implement
 
+- __Navigation Bar__
+
+    - For screens smaller than 900px to style nav bar so it becomes responsive using "burger" menu icons rather than sprad out format
+
 - __Landing Page__
 
-    - Replace current slide show one that feeds images directly from the gallery section 
+    - Replace a stationary picture with a slideshow showing random pictures and then upgrade it with a functionality to feed the pics automatically from the Gallery page
+    - Add a function to the meeting information panels so when the user clicks on them user is taken to the Locations page
     
 - __Gallery Page__
 
@@ -163,12 +168,17 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 ### Design
 
-The design of the page is aimed towards warm colors and  fonts to create pleasant, positive and safe environment.
+The design of the page is aimed towards warm colors and  fonts to create pleasant, positive and safe feeling environment.
 
 - __Fonts__:
 
     - Merriweather - used as a base font on the whole site
-    - Lato
+    - Lato - used for most headers and to give a bit of visual diversity
+
+  - __Color Scheme__:  
+
+    - Primary color:
+    
 
 ### 6.  <!--Remove line-->
 

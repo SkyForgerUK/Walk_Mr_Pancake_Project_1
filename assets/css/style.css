@@ -22,7 +22,7 @@ body {
      background-color: #e5e8d8;
      font-family: Merriweather, sans-serif;
      font-weight: 300;
-     color: #44434A;
+     color: #44434a;
      margin: auto;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .menu a:hover {
-     border-bottom: 1px solid #44434A;
+     border-bottom: 1px solid #44434a;
 }
 
 .active {
@@ -193,7 +193,7 @@ body {
 }
 
 .reasons>hr {
-     border-top: 1px solid #44434A;
+     border-top: 1px solid #44434a;
      width: 100%;
      margin: 5px 0;
 }
@@ -201,7 +201,7 @@ body {
 /* meet up times & locations*/
 .times {
      background-image: url('../images/Cotswolds_Panorama_Fields.jpg');
-     background-color: #44434A;
+     background-color: #44434a;
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
@@ -225,7 +225,7 @@ body {
 /* footer */
 .socials {
      text-align: center;
-     background-color: #44434A;
+     background-color: #44434a;
      margin: 40px 0 0 0;
      padding: 1% 0;
 }
@@ -254,7 +254,7 @@ body {
 
 .photos>img {
      width: 100%;
-     border: 3px solid #44434A;
+     border: 3px solid #44434a;
 }
 
 /* Locations page*/
@@ -262,14 +262,14 @@ body {
      height: 175px;
      margin: 20px auto 0;
      background-image: url('../images/Cotswolds_Panorama_Fields.jpg');
-     background-color: #44434A;
+     background-color: #44434a;
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
      width: 100%;
      overflow: hidden;
      display: flex;
-     border: 2px solid #44434A;
+     border: 2px solid #44434a;
 }
 
 .location-text {
@@ -281,7 +281,7 @@ body {
      padding: 0;
      padding: 10px 0 0 10px;
      text-align: left;
-     border-right: 2px solid #44434A;
+     border-right: 2px solid #44434a;
      box-sizing: border-box;
      font-size: 90%;
 }
