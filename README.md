@@ -181,8 +181,10 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
     ![Primary color](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/color-primary.jpg)
 
     - Secondary color:
+    ![Primary color](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/color-secondary.jpg)
 
     - Hero image cover text background color with opacity of .7:
+    ![Primary color](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/color-third.jpg)
 
     - Additional colors:
         - #fff - white - used for Hero image cover text and for Signup forms header
