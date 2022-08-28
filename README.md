@@ -141,30 +141,23 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 - __Navigation Bar__
 
-    - For screens smaller than 900px to style nav bar so it becomes responsive using "burger" menu icons rather than sprad out format
+    - For screens smaller than 900px to to make a responsive nav bar which collapses using a  "burger" menu icons to make look cleaner.
 
 - __Landing Page__
 
-    - Replace a stationary picture with a slideshow showing random pictures and then upgrade it with a functionality to feed the pics automatically from the Gallery page
-    - Add a function to the meeting information panels so when the user clicks on them user is taken to the Locations page
+    - Replace a stationary picture with a slideshow showing random pictures and then upgrade it with a functionality to feed the pics automatically from the Gallery page.
+    - Add a function to the meeting information panels so when the user clicks on them user is taken to the Locations page.
     
 - __Gallery Page__
 
     - Restructure the page to enbable images to be laid out in multiple albums, seperating each walk in seperate album.
-    - Create a functionality for users to send in their images for checks and posting in Gallery Page
-
-        
-
-<!--ideas that I was not able to implement yet, but want to in future-->
-
-
-### 5.  <!--Remove line-->
+    - Create a functionality for users to send in their images for checks and posting in Gallery Page.
 
 ## Typografy and color scheme
 
 ### Design
 
-The design of the page is aimed towards warm colors and  fonts to create pleasant, positive and safe feeling environment.
+The design of the page is aimed towards warm colors and fonts to create pleasant, calm and safe feeling environment.
 
 - __Fonts__:
 
@@ -204,11 +197,7 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
    ![Mobile Wireframes]() 
 </details>
 
-
-### 7.  <!--Remove line-->
-
 ## Technology
-<!--Need to clarify what goes in here, possibly technology used-->
 
 -__Languages__
 
@@ -218,7 +207,7 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 -__Software and Framework Libraries__
 
 - [Balsamiq Wireframes](https://balsamiq.com/)
-    - To create wireframe sesign outlay
+    - To create wireframe design outlay
 
 - [Google Fonts](https://fonts.google.com/)
     - To acquire 'Lato' and 'Merriweather' font to use on the site
@@ -253,13 +242,14 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 - [GitPod](https://www.gitpod.io/)
     - To use as a platform for coding
 
-
-### 8.  <!--Remove line-->
+-[Chrome Lighthouse extensions](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en)
+    - For testing the performance of the site
 
 ## Testing
-<!--Pdf link and a few screenshots of the prepared wireframe-->
 
-### 8.1 Code Validation - HTML and CSS validation
+Testing was carried out by using every device that was available to the poject developer, getting project developers friends to test the functionality on their devices and developer tools like Chrome DevTools and Lighthouse extension.
+
+### Code Validation - HTML and CSS validation
 
  - __W3C Markup Validator__
 
@@ -267,8 +257,8 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
         - First two were connected and by adding a missed /div they were cleared
         - Then a stray /i and a stray /a end tags were removed
 
-    - There was an additional error on the Contact Us page:
-        - The identical id values occured durring the multiplying of the code lines, error was cleared by assigningunoque id's to two lines
+    - There was an additional error on the "Contact Us" page:
+        - The identical id values occured durring the multiplying of the code lines, error was cleared by assigning unique id's to two lines
 
 <details>
   <summary>HTML Error Message</summary>
@@ -289,8 +279,9 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
         - Two text-align errors with duplicating center value, cleared by removing the duplicating value
         - Last error was a value error on Google embeded maps where % cannot be used, fixed by applying a large enough value to cover the width needed
 
-  <details>
+<details>
   <summary>CSS Error Message</summary>
+
    ![CSS Error Message](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/css_validator_1st_try.jpg) 
 
 </details>
@@ -301,13 +292,15 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 
 </details>       
 
-### 8.2 Test cases (user story based with screenshots)
+<br>
+
+### Test cases (user story based with screenshots)
 
 <br>
 
 - __User Cases__
+    -
 
-<br>
 
 - To easily understand the purpose of the website.
     - When the Landing page opens cover text with "Dog walks in Nuneaton where anyone can join" is visible providing the user with information about the purpose of the website
@@ -388,8 +381,114 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 </details> 
 <br> 
 
+- __General test__
+    -
 
-### 8.3 Fixed bugs
+<details>
+
+  <summary>Launching and responsivnes</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Copy url from GitHub and paste it in a browser and hit enter | Browser should load index.html as the landing page | Pass |
+  |Opening evry page (except thank you page) | Hero image gois in 4 second zoom-out effect  | Pass |
+  |Scale up the window | The content should be responsive at 900px and 1200px width marks | Pass |
+  |Scale down the window | The content should be responsive at 900px and 375px width marks | Pass |
+  |Scale down under 375px width | The layout should be responsive and fit in a single column without horizontal scroll bar until reaching 311px on all pages | Pass |
+
+</details>
+
+<details>
+
+  <summary>Landing page</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  | Click on all nav items | Each nav item takes user to the respective page on the site | Pass |
+  | Changing size above 899px | Ethos section moves from a single column styling to 2 column x 2 row styling for the text | Pass |
+  | Changing size above 1199px | Meetup times section moves from a single column styling to single row styling for the text | Pass |
+  |Clicking on all footer icons| Each social platform icon opens their respective website in a new tab | Pass |
+  
+
+</details>
+
+<details>
+
+  <summary>Mr. Pancakeg page</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  | Click on all nav items | Each nav item takes user to the respective page on the site | Pass |
+  | Changing size above 899px | Ethos section moves from a single column styling to 2 column x 2 row styling for the text | Pass |
+  |Clicking on all footer icons| Each social platform icon opens their respective website in a new tab | Pass |
+  
+
+</details>
+
+<details>
+
+  <summary>Gallery page</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  | Click on all nav items | Each nav item takes user to the respective page on the site | Pass |
+  | Changing size above 374px | Gallery section moves from a single column styling to 2 columns | Pass |
+  | Changing size above 899px | Gallery section moves from 2 column styling to 3 columns | Pass |
+  | Changing size above 1199px | Gallery section moves from 3 column styling to 4 columns | Pass |
+  | Clicking on all footer icons | Each social platform icon opens their respective website in a new tab | Pass |
+  
+
+</details>
+
+<details>
+
+  <summary>Location page</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  | Click on all nav items | Each nav item takes user to the respective page on the site | Pass |
+  | Changing size below 900px | Meetup rows have text area to map size in ratio 60% to 40% | Pass |
+  | Changing size above 899px | Meetup rows have text area to map size in ratio 70% to 30% | Pass |
+  | Changing size above 1199px | Meetup rows have text area to map size in ratio 75% to 25% | Pass |
+  | Clicking on all footer icons | Each social platform icon opens their respective website in a new tab | Pass |
+  
+
+</details>
+
+<details>
+
+  <summary>Contact Us page</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  | Click on all nav items | Each nav item takes user to the respective page on the site | Pass |
+  | Changing size below 375px | Width of the "Thank you message" goes to 70% width | Pass |
+  | Changing size above 374px | Width of the "Thank you message" goes to 80% width | Pass |
+  | Changing size above 899px | Width of the "Thank you message" width goes to auto | Pass |
+  | Clicking on all footer icons | Each social platform icon opens their respective website in a new tab | Pass 
+  
+
+</details>
+
+<details>
+
+  <summary>Thank you page</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  | Click on all nav items | Each nav item takes user to the respective page on the site | Pass |
+  | Clicking on submit button without filling in First Name | Error message "Please fill out this field" pops up and no progression | Pass |
+  | Clicking on submit button without filling in Last Name | Error message "Please fill out this field" pops up and no progression | Pass |
+  | Clicking on submit button without filling in Email Address | Error message "Please fill out this field" pops up and no progression | Pass |
+  | Clicking on submit button three mandatory field filled in | User is taken to "Thank you" page | Pass |
+  | Clicking on all footer icons | Each social platform icon opens their respective website in a new tab | Pass |
+  
+
+</details>
+  
+
+
+### Fixed bugs
 
 - __Logo not showing on the published page__
 
@@ -407,9 +506,7 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
   <br>      
 
 
-### 8.4 Supported Screens, Browsers and Performance
-
-<br>
+### Supported Screens, Browsers and Performance
 
 ### Browsers
 
@@ -422,6 +519,8 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 - Samsung A52s
 - Huawei P20 Pro
 - Huawei P30 Mate
+- Iphone 13 Pro
+- Iphone 11
 - Screen virtual compability tested using Google DevTools:
     - Min responsive screen size tested - 304px
     - Max responsive screen size tested - 2560px
@@ -434,11 +533,17 @@ The design of the page is aimed towards warm colors and  fonts to create pleasan
 <details>
   <summary>Performance results</summary>
 
+- Landing page:
    ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-landing.jpg)
-   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-mr-pancake.jpg) 
-   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-gallery.jpg) 
-   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-locations.jpg) 
-   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-contacts.jpg) 
+- Mr. Pancake page:   
+   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-mr-pancake.jpg)
+- Gallery:    
+   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-gallery.jpg)
+- Locations page: 
+   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-locations.jpg)
+- Contact Us page: 
+   ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-contacts.jpg)
+- Thank You page: 
    ![Contact Us](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/p-m-thank-you.jpg) 
 
 </details> 
