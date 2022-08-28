@@ -489,10 +489,15 @@ SkyForgerUK/Walk_Mr_Pancake_Project_1"
 <!--In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.-->
 
 ### Content
--   
+- All content writtent by the project developer, a part of the Dachshund breed summary which was taken form [dogtime.com](https://dogtime.com/dog-breeds/dachshund#/slide/1)
+-   The icons in footer, and in main section on Home Page and Mr. Pancake page are taken from [Font Awesome](https://fontawesome.com/)
+- Fonts 'Lato' and 'Merriweather' where taken from [Google Fonts](https://fonts.google.com/)
 
 ### Media
-
-<!-- above 2 are part of credits-->
+- Header Puppy Logo was taken from [KindPng](kindpng.com)
+- All the images in the Gallery taken from project developers personal collection
+- All images on the site are project developers personal images, a part of:
+    - Background image for Locations and Home page meet up times taken from [Wikimedia](https://commons.wikimedia.org/wiki/File:Cotswolds_Panorama_Fields.jpg)
+    - Background image for Contact Us page taken from [FreeImages](https://www.freeimages.com/)
 
 
