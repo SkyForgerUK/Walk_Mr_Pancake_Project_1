@@ -50,7 +50,7 @@ Visit the Deployed website [here](https://skyforgeruk.github.io/Walk_Mr_Pancake_
     - To clearly see what sections I can explore in the website.
     - To easily reach each section.
     - To understand who Mr. Pancake is.
-    - To easely get to meet up times and locations information.
+    - To easily get to meet up times and locations information.
     - To be able to contact organizers in case of questions.
     - To receive a confirmation on successful contact for submission.
 
@@ -63,7 +63,7 @@ There are six pages:
 - Gallery
 - Locations
 - Contact page
-- Thank You page (once user has sucessfully submited the Contact Us form)
+- Thank You page (once user has successfully submitted  the Contact Us form)
 
 ### Navigation Bar and Footer
 
@@ -76,11 +76,11 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 - __Footer:__
 
-    - Fotter contains social link icons which when clicked on will open the destination in a new tab for the user.
+    - Footer contains social link icons which when clicked on will open the destination in a new tab for the user.
     - Social media icons contain links to:
         - Facebook
         - Twitter
-        - Youtube
+        - YouTube
         - Instagram
 
 
@@ -88,23 +88,23 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 - __Hero image:__
 
-    - Site visitors are greeted with a heartwarmig look from a small Dachshund evoking good feelings and sense of security
-    - The Hero image is kept troughout all pages, with only the cover image text changing for each page.
-    - After submitting a contact form users are exposed to full size image of the hero image, further strenghtening the warm and positive message.
+    - Site visitors are greeted with a heart-warming  look from a small Dachshund evoking good feelings and sense of security
+    - The Hero image is kept throughout all pages, with only the cover image text changing for each page.
+    - After submitting a contact form, users are exposed to full size image of the hero image, further strengthening the warm and positive message.
 
 <br >
 
 - __Mid/Ethos section:__
 
     - Contains a header with question "Why join Mr. Pancake for a walk?".
-    - Below the question are the four main reasons why people should consider joinung the walk group.
+    - Below the question are the four main reasons why people should consider joining the walk group.
     - This section is completed with a slideshow area, where user is shown various pictures in 4 second intervals. (to be implemented)
 
     <br>
 
 - __Meet up locations:__  
 
-    - Contained in four seperate parts, one for each of the 4 days a week the walks take place.
+    - Contained in four separate parts, one for each of the 4 days a week the walks take place.
     - Minimalistic information about meet up locations is presented on a beautiful background.
     - By clicking on any of the panels users are brought directly to the Location page where more info and interactive maps are available.
 
@@ -160,11 +160,11 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 - __Locations:__
 
-    - Contains four panels with informtion about the meet up locations.
+    - Contains four panels with information about the meet up locations.
     - Each panel has:
         - A joint background
         - Full information of meet up locations on the left
-        - Interactive, embedded google mps for start point of each walk
+        - Interactive, embedded google maps for start point of each walk
 
 <details>
 
@@ -204,7 +204,7 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 ## Thank You Page
 
 - __Thank you__
-    - Opens when users have correctly filled in and submited a "Contact Us" form.
+    - Opens when users have correctly filled in and submitted a "Contact Us" form.
     - Contains a thank you text with  "please click here" to return top home page.
 
 <details>
@@ -221,7 +221,7 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
 
 - __Navigation Bar__
 
-    - For screens smaller than 900px to to make a responsive nav bar which collapses using a  "burger" menu icons to make look cleaner.
+    - For screens smaller than 900px to make a responsive nav bar which collapses using a  "burger" menu icons to make look cleaner.
 
 - __Landing Page__
 
@@ -230,7 +230,7 @@ Both Nav bar and footer are responsive to the size of the screen being used to r
     
 - __Gallery Page__
 
-    - Restructure the page to enbable images to be laid out in multiple albums, seperating each walk in seperate album.
+    - Restructure the page to enable images to be laid out in multiple albums, separating each walk in separate album.
     - Create a functionality for users to send in their images for checks and posting in Gallery Page.
 
 ## Typografy and color scheme
@@ -276,7 +276,7 @@ The design of the page is aimed towards warm colors and fonts to create pleasant
 
   <details>
 
-  <summary>Desktop</summary>
+  <summary>Desktop Wireframes PDF</summary>
   
    [Desktop Wireframes PDF](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/wireframes-pdf-pc.pdf) 
 
@@ -293,7 +293,7 @@ The design of the page is aimed towards warm colors and fonts to create pleasant
 
   <details>
 
-  <summary>Desktop</summary>
+  <summary>Mobile Wireframes PDF</summary>
   
    [Mobile Wireframes PDF](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/wireframes-pdf-mob.pdf) 
 
@@ -328,7 +328,7 @@ The design of the page is aimed towards warm colors and fonts to create pleasant
     - For adding icons to Home and Mr. Pancake pages
 
 - [W3C Markup Validator](https://validator.w3.org/) 
-    - To validate the HTML code accros all pages
+    - To validate the HTML code across all pages
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     - To validate the CSS
@@ -336,8 +336,8 @@ The design of the page is aimed towards warm colors and fonts to create pleasant
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
    - To review code and test it during the development process
 
-- [Multi device mockup generator](https://techsini.com/multi-mockup/)
-    - To generate a mockup image for the Readme file
+- [Multi device mock-up generator](https://techsini.com/multi-mockup/)
+    - To generate a mock-up image for the Readme file
 
 - [Google Maps](https://www.google.co.uk/maps)
     - To get the embedded maps for Locations page
@@ -353,18 +353,18 @@ The design of the page is aimed towards warm colors and fonts to create pleasant
 
 ## Testing
 
-Testing was carried out by using every device that was available to the poject developer, getting project developers friends to test the functionality on their devices and developer tools like Chrome DevTools and Lighthouse extension.
+Testing was carried out by using every device that was available to the project developer, getting project developers friends to test the functionality on their devices and developer tools like Chrome DevTools and Lighthouse extension.
 
 ### Code Validation - HTML and CSS validation
 
  - __W3C Markup Validator__
 
-    - On the first try validator reported 4 errors spanning accross all pages:
+    - On the first try validator reported 4 errors spanning across all pages:
         - First two were connected and by adding a missed /div they were cleared
         - Then a stray /i and a stray /a end tags were removed
 
     - There was an additional error on the "Contact Us" page:
-        - The identical id values occured durring the multiplying of the code lines, error was cleared by assigning unique id's to two lines
+        - The identical id values occurred during the multiplying of the code lines, error was cleared by assigning unique id's to two lines
 
 <details>
   <summary>HTML Error Message</summary>
@@ -383,7 +383,7 @@ Testing was carried out by using every device that was available to the poject d
 
     - On the first try validator reported 3 errors:
         - Two text-align errors with duplicating center value, cleared by removing the duplicating value
-        - Last error was a value error on Google embeded maps where % cannot be used, fixed by applying a large enough value to cover the width needed
+        - Last error was a value error on Google embedded maps where % cannot be used, fixed by applying a large enough value to cover the width needed
 
 <details>
   <summary>CSS Error Message</summary>
@@ -447,8 +447,8 @@ Testing was carried out by using every device that was available to the poject d
 </details> 
 <br> 
 
-- To easely get to meet up times and locations information.
-    - On landing page, scroll past the reasons for joining a walk, a list of times and loctations is available
+- To easily get to meet up times and locations information.
+    - On landing page, scroll past the reasons for joining a walk, a list of times and locations is available
     - On landing page clicking on Locations in Navigation bar a page with meet up information and embedded Google maps opens
 
  <details>
@@ -492,12 +492,12 @@ Testing was carried out by using every device that was available to the poject d
 
 <details>
 
-  <summary>Launching and responsivnes</summary>
+  <summary>Launching and responsiveness</summary>
 
-  |Action | Expected behavious | Result|
+  |Action | Expected behaviour | Result|
   |-------|--------------------|-------|
   |Copy url from GitHub and paste it in a browser and hit enter | Browser should load index.html as the landing page | Pass |
-  |Opening evry page (except thank you page) | Hero image gois in 4 second zoom-out effect  | Pass |
+  |Opening every page (except thank you page) | Hero image goes in 4 second zoom-out effect  | Pass |
   |Scale up the window | The content should be responsive at 900px and 1200px width marks | Pass |
   |Scale down the window | The content should be responsive at 900px and 375px width marks | Pass |
   |Scale down under 375px width | The layout should be responsive and fit in a single column without horizontal scroll bar until reaching 311px on all pages | Pass |
@@ -508,7 +508,7 @@ Testing was carried out by using every device that was available to the poject d
 
   <summary>Landing page</summary>
 
-  |Action | Expected behavious | Result|
+  |Action | Expected behaviour | Result|
   |-------|--------------------|-------|
   | Click on all nav items | Each nav item takes user to the respective page on the site | Pass |
   | Changing size above 899px | Ethos section moves from a single column styling to 2 column x 2 row styling for the text | Pass |
@@ -522,7 +522,7 @@ Testing was carried out by using every device that was available to the poject d
 
   <summary>Mr. Pancake page</summary>
 
-  |Action | Expected behavious | Result|
+  |Action | Expected behaviour | Result|
   |-------|--------------------|-------|
   | Click on all nav items | Each nav item takes user to the respective page on the site | Pass |
   | Changing size above 899px | Ethos section moves from a single column styling to 2 column x 2 row styling for the text | Pass |
@@ -535,7 +535,7 @@ Testing was carried out by using every device that was available to the poject d
 
   <summary>Gallery page</summary>
 
-  |Action | Expected behavious | Result|
+  |Action | Expected behaviour | Result|
   |-------|--------------------|-------|
   | Click on all nav items | Each nav item takes user to the respective page on the site | Pass |
   | Changing size above 374px | Gallery section moves from a single column styling to 2 columns | Pass |
@@ -550,7 +550,7 @@ Testing was carried out by using every device that was available to the poject d
 
   <summary>Location page</summary>
 
-  |Action | Expected behavious | Result|
+  |Action | Expected behaviour | Result|
   |-------|--------------------|-------|
   | Click on all nav items | Each nav item takes user to the respective page on the site | Pass |
   | Changing size below 900px | Meetup rows have text area to map size in ratio 60% to 40% | Pass |
@@ -565,7 +565,7 @@ Testing was carried out by using every device that was available to the poject d
 
   <summary>Contact Us page</summary>
 
-  |Action | Expected behavious | Result|
+  |Action | Expected behaviour | Result|
   |-------|--------------------|-------|
   | Click on all nav items | Each nav item takes user to the respective page on the site | Pass |
   | Changing size below 375px | Width of the "Thank you message" goes to 70% width | Pass |
@@ -580,7 +580,7 @@ Testing was carried out by using every device that was available to the poject d
 
   <summary>Thank you page</summary>
 
-  |Action | Expected behavious | Result|
+  |Action | Expected behaviour | Result|
   |-------|--------------------|-------|
   | Click on all nav items | Each nav item takes user to the respective page on the site | Pass |
   | Clicking on submit button without filling in First Name | Error message "Please fill out this field" pops up and no progression | Pass |
@@ -598,11 +598,11 @@ Testing was carried out by using every device that was available to the poject d
 
 - __Logo not showing on the published page__
 
-    - In the page header the path to the logo image started like - "/assets/..." so i changed it to "assets/..." and the issue was fixed
+    - In the page header the path to the logo image started like - "/assets/..." so I changed it to "assets/..." and the issue was fixed
 
 - __Thank you page background image overlapping the nav bar for screen sizes over 900px__
 
-    - Created a new set of styling in "@media screen and (min-width: 900px)" to counter teh issue - fixed
+    - Created a new set of styling in "@media screen and (min-width: 900px)" to counter the issue - fixed
 
  ### Not fixed bugs
 
@@ -625,16 +625,16 @@ Testing was carried out by using every device that was available to the poject d
 - Samsung A52s
 - Huawei P20 Pro
 - Huawei P30 Mate
-- Iphone 13 Pro
-- Iphone 11
-- Screen virtual compability tested using Google DevTools:
+- iPhone 13 Pro
+- iPhone 11
+- Screen virtual compatibility tested using Google DevTools:
     - Min responsive screen size tested - 304px
     - Max responsive screen size tested - 2560px
 
 ### Performance
 
 - Performance tested using Chrome Lighthouse extension.
-    - Lower performance scores mainly due to imgage file type, size and embededd maps from Google
+    - Lower performance scores mainly due to image file type, size and embedded maps from Google
 
 <details>
   <summary>Performance results</summary>
@@ -694,7 +694,7 @@ SkyForgerUK/Walk_Mr_Pancake_Project_1"
 ## Credits
 
 ### Content
-- All content writtent by the project developer, except of the Dachshund breed summary which was taken form [dogtime.com](https://dogtime.com/dog-breeds/dachshund#/slide/1)
+- All content written by the project developer, except of the Dachshund breed summary which was taken form [dogtime.com](https://dogtime.com/dog-breeds/dachshund#/slide/1)
 - The icons in footer and in main section on Home Page and Mr. Pancake page are taken from [Font Awesome](https://fontawesome.com/)
 - Fonts 'Lato' and 'Merriweather' where taken from [Google Fonts](https://fonts.google.com/)
 - For help with the code [w3schools](https://www.w3schools.com/) was used 
