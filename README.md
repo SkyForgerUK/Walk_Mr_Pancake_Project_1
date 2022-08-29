@@ -694,7 +694,9 @@ SkyForgerUK/Walk_Mr_Pancake_Project_1"
 ## Credits
 
 ### Content
-- All content written by the project developer, except of the Dachshund breed summary which was taken form [dogtime.com](https://dogtime.com/dog-breeds/dachshund#/slide/1)
+- All content written by the project developer, except of:
+  - The Dachshund breed summary which was taken from [dogtime.com](https://dogtime.com/dog-breeds/dachshund#/slide/1)
+  - The Nuneaton town information which was taken from [Wikipedia](https://en.wikipedia.org/wiki/Nuneaton)
 - The icons in footer and in main section on Home Page and Mr. Pancake page are taken from [Font Awesome](https://fontawesome.com/)
 - Fonts 'Lato' and 'Merriweather' where taken from [Google Fonts](https://fonts.google.com/)
 - For help with the code [w3schools](https://www.w3schools.com/) was used 
