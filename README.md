@@ -261,9 +261,6 @@ The design of the page is aimed towards warm colors and fonts to create pleasant
     - Additional colors:
         - #fff - white - used for Hero image cover text and for Signup forms header
         - rgb(0, 0, 0) - black - with various opacity levels for transparent backgrounds
- 
-
-### 6.  <!--Remove line-->
 
 ## Wireframes
 
@@ -348,7 +345,7 @@ The design of the page is aimed towards warm colors and fonts to create pleasant
 - [GitPod](https://www.gitpod.io/)
     - To use as a platform for coding
 
--[Chrome Lighthouse extensions](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en)
+- [Chrome Lighthouse extensions](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en)
     - For testing the performance of the site
 
 ## Testing
