@@ -22,7 +22,6 @@ body {
      margin: auto;
 }
 
-/* Navigation and logo */
 .top-logo {
      float: left;
      width: 150px;
@@ -67,7 +66,6 @@ body {
      border-bottom: 1px solid #3a3a3a;
 }
 
-/*Hero (top cover) image and overly text*/
 .cover-text,
 .cover-text h2 {
      color: #fff;
@@ -112,8 +110,6 @@ body {
      padding-right: 10px;
 }
 
-
-/* Contact Us cover text special styling end*/
 .top-outer {
      height: 450px;
      width: 100%;
@@ -132,6 +128,7 @@ body {
      animation-fill-mode: forwards;
 }
 
+/*zoom out styling*/
 @keyframes pancake-zoom {
      from {
           transform: scale(1.05);
@@ -300,7 +297,6 @@ body {
      margin-top: 40px;
      clear: left;
      background: url(../images/october-1349737.jpg);
-     /*freeimages.com*/
      background-size: cover;
      background-position: center;
      height: 910px;
@@ -443,6 +439,7 @@ body {
      color: inherit;
 }
 
+/*responsive styling*/
 @media screen and (min-width: 900px) {
      .top-logo {
           position: absolute;
