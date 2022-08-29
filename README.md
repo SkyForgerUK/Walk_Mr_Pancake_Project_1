@@ -266,16 +266,42 @@ The design of the page is aimed towards warm colors and fonts to create pleasant
 ### 6.  <!--Remove line-->
 
 ## Wireframes
-<!--Pdf link and a few screenshots of the prepared wireframe-->
 
 <details>
+
   <summary>Desktop</summary>
-   ![Desktop Wireframes]() 
+
+   ![Desktop Wireframes](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/wireframe-pc-main.jpg) 
+   ![Desktop Wireframes](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/wireframe-pc-contact.jpg) 
+
+  <details>
+
+  <summary>Desktop</summary>
+  
+   [Desktop Wireframes PDF](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/wireframes-pdf-pc.pdf) 
+
+  </details>
+
 </details>
+
 <details>
+
   <summary>Mobile</summary>
-   ![Mobile Wireframes]() 
+
+   ![Mobile Wireframes](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/wireframe-mob-1.jpg) 
+   ![Mobile Wireframes](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/wireframe-mob-2.jpg) 
+
+  <details>
+
+  <summary>Desktop</summary>
+  
+   [Mobile Wireframes PDF](https://github.com/SkyForgerUK/Walk_Mr_Pancake_Project_1/blob/main/docs/wireframes-pdf-mob.pdf) 
+
+  </details>
+
 </details>
+
+
 
 ## Technology
 
